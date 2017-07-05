@@ -12,7 +12,6 @@ public class LatentSemanticAnalysisMain {
 	public static void main(String[] args) throws Exception {
 
 		final String folder = "news";
-
 		// String f1 = readFile("test/comp.sys.mac.hardware/52166",
 		// StandardCharsets.UTF_8);
 

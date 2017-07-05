@@ -30,6 +30,8 @@ public class NewsSimilarity {
    */
   public static final String WORD_VECTORS_PATH = "C:\\Users\\i319962\\Documents\\Projects\\Inoweek2016 - Tweets\\glove.twitter.27B\\glove.twitter.27B.200d.txt";
 
+  public static final String WORD_GOOGLE_VECTORS_PATH = "C:\\Users\\i319962\\Documents\\fmi\\GoogleNews-vectors-negative300.bin";
+
   /**
    * The size of the vectors of word2vec model.
    */
@@ -38,7 +40,8 @@ public class NewsSimilarity {
   /**
    * Path to the folder that contains the news.
    */
-  public static final String NEWS_GROUPS_PATH = "C:\\Users\\i319962\\Documents\\fmi\\newsgroups\\autos";
+  // public static final String NEWS_GROUPS_PATH = "C:\\Users\\i319962\\Documents\\fmi\\newsgroups\\autos";
+  public static final String NEWS_GROUPS_PATH = "news\\rec.sport.hockey";
 
   /**
    * Map that contains title of article to its sum vector. The sum vector is received by adding all vectors of the words in the article.
@@ -52,11 +55,11 @@ public class NewsSimilarity {
     System.out.println(newsSumVectors);
 
     // System.out.println(getMostRelatedNews("PUMA FIRST-HALF LOSS ABOUT 14 MLN MARKS"));
-    Map<String, double[]> mostRelatedNews = getMostRelatedNewsUsingCosineSimilarity("75389m");
+    Map<String, double[]> mostRelatedNews = getMostRelatedNewsUsingCosineSimilarity("52550");
     System.out.println(mostRelatedNews);
     for (Entry<String, double[]> entry : mostRelatedNews.entrySet()) {
       System.out.println("entry: " + entry.getKey());
-      System.out.println("cosine: " + cosineSimilarity(newsSumVectors.get("75389m"), entry.getValue()));
+      System.out.println("cosine: " + cosineSimilarity(newsSumVectors.get("52550"), entry.getValue()));
     }
   }
 
@@ -67,7 +70,8 @@ public class NewsSimilarity {
    */
   private static WordVectors loadWord2vecModel() {
     System.out.println("Loading word vectors (" + WORD_VECTORS_PATH + ") ....");
-    WordVectors wordVectors = WordVectorSerializer.readWord2VecModel(new File(WORD_VECTORS_PATH));
+//    WordVectors wordVectors = WordVectorSerializer.readWord2VecModel(new File(WORD_VECTORS_PATH));
+    WordVectors wordVectors = WordVectorSerializer.readWord2VecModel(new File(WORD_GOOGLE_VECTORS_PATH));
     return wordVectors;
   }
 

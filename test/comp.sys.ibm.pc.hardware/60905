@@ -1,0 +1,76 @@
+directory pdmsdossysutl
+ filename type length date description
+
+clkdevzip b keep dos time synch battery clock chip
+
+ index all files wsmrsimtelarmymil msdos collection
+ available two formats
+
+directory pdmsdosfiledocs
+ filename type description
+
+simibmzip b commadelim list all msdos files wdescrip
+simlistzip b text format list all msdos files wdescrip
+
+ files updated every days see aaareadme 
+directory details 
+
+simtel allows only nine anonymous ftp logins during weekday
+prime time am pm mountain time gmt otherwise
+
+simtel files also available anonymous ftp from mirror sites
+oakoaklandedu wuarchivewustledu 
+archiveorstedu ftpuunet nicfunetfi
+ srcdocicacuk nicswitchch
+ archieau nctucccaedutw 
+ email through bitnetearn file servers uucp from uunets
+gotsrcs see uunet file uunetinfoarchivehelp details
+
+oakoaklandedu primary mirror site wsmrsimtelarmymil
+all other mirrors except wuarchive all listserv trickle
+servers get simtel files from oak instead simtel because
+ much faster allows more simultaneous ftp connections oak 
+always sync simtel because i maintain addition my
+duties simtel i run oaks mirror program whenever new files 
+added simtel
+
+msdosanntacomemharmymil oneway moderated mailing list
+which used internet msdos archive managers announce new
+additions collections 
+
+ announcements posted mailing list also posted usenet
+newsgroup comparchivesmsdosannounce your host has usenet news
+please do subscribe msdosann
+
+ add yourself mailing list send email 
+listservtacomemharmymil command 
+body message
+
+ subscribe msdosann
+
+ subscribe something other than account mail coming from
+ local redistribution list add address 
+subscribe command example subscribe localmsdosann
+
+ subscribe localmsdosannyourdomainnet msdosann
+
+please do include signature because may confuse server
+send mail word help body message get 
+complete list commands syntax
+
+ you later change your mind wish unsubscribe send email
+from same address where you were when you subscribed send 
+listservtacomemharmymil command body 
+message
+
+unsubscribe msdosann
+
+ server only mailing lists information files 
+ send program files 
+
+keith
+
+keith petersen
+maintainer msdos archive wsmrsimtelarmymil 
+internet wsdztacomemharmymil wsdzvelaacsoaklandedu
+uucp uunetumichvelawsdz bitnet wsdzoakland

@@ -1,0 +1,85 @@
+penio penev penevrockefelleredu wrote
+
+i have maxtor mb isa ide controller although my machine 
+dx vlb i has save transfer rate mbs regardless 
+ variations isa bus speed i tested speed between
+mhz mhz any difference problem 
+interface between controller memory
+
+
+chris brinton brintonicdteradynecom wrote
+ i also have dx maxtor i have local bus ide controller generic i get
+ kbs i tried swapping my local bus ide controller isa ide controller my
+ transfer rate went kbs specs drive show maximum platter controller
+ transfer rate mbs i dont know how get from here local bus interface
+ got me little certainly much i had hoped i am also looking way 
+
+what deal ide transfer rates anybody getting throughput
+anywhere close plattercontroller rate i havent seen anything
+even close mbsec limit ide interface drives 
+noninterleaved arent 
+
+here rates i get
+
+ sequential read msdos c program uses bios calls read sector
+ blocks sequentially from outside first track inward
+
+ mhz bus mhz bus
+ 
+ maxtor lxt kbsec kbsec
+ quantum lps kbsec kbsec
+
+ disk buffer read same c program rereads same block repeatedly
+ so effect reading ram buffer drive
+
+ mhz bus mhz bus
+ 
+ maxtor lxt kbsec kbsec
+ quantum lps kbsec kbsec
+
+ coretest v transfer rate seems agree above
+
+ mhz bus mhz bus
+ 
+ maxtor lxt kbsec kbsec
+ quantum lps kbsec kbsec
+
+i managed get hold quantum lpsat product manual goes
+ excrutiating detail describing how bits get from platter
+through controller out ide interface nowhere do i see
+anything like after bits whipped platter high speed
+ sit around buffer thaw before sent host
+even though i swear thats whats happening here some relevent
+quotes from manual
+
+ data transferred from disk read buffer rate 
+ mbs maximum mbs minimum my calculations show kbsec
+ maximum kbsec minimum disk spins rpm 
+ sectors per track outside inside
+
+ single burst errors up bits within one sector can corrected
+ onthefly real time occur allowing high degree 
+ data integrity impact drives performance i take
+ mean error correction isnt bottleneck
+
+ pagemode operations datatransfer rate from buffer
+ ram up mbs high transfer rate allows interface
+ ic communicate over bus datatransfer rate mbs
+ while dcs simultaneously controls disktoram transfers
+ 
+so thing can even do its cache prefetch while its sending 
+requested sector has kb read buffers prefetching i guess
+you could call cache 
+
+so when i do sequential read outer tracks why am i getting 
+measly kbsec when i should getting around mbsec
+
+any you harddisk engineers out know
+
+
+wondering why my disks so slow 
+david
+ o o
+oooooo
+david stam linux choice gnu generation
+stamnetcomcom unxxropenlookgcctexfree

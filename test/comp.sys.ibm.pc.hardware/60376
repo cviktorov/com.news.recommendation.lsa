@@ -1,0 +1,34 @@
+article wayneuvamtowerspacecoastorg wayneamtowerspacecoastorgxnewssoftware grn f mike schwartz michael b smith writes
+
+ i still want know why intrinsically better
+ than ide isa bus when comes multitasking oss when
+ managing data from single scsi hard drive
+
+ scsi controller transfers data dma allows cpu request data
+from hard drive continue working while controller gets data
+ moves memory 
+
+ide also uses dma techniques i believe floppy controller also uses dma
+ most ad boards also use dma dma big deal has nothing 
+do directly scsi
+
+ example when rewinding formatting tape command 
+issued controller bus released allow access other
+devices bus greatly increases productivity least do
+something else while backing up your hard drive which happens 
+what i am doing while reading group
+
+you can thank your software dos had few more brains 
+could format floppies etc while you were doing something else 
+hardware support dos least wont again has 
+nothing do scsi
+
+its long story i still use ide my except cdrom which
+thanks scsi i can move between both machines when scsi 
+better standardized supported ibmclone machines i plan 
+completely get rid ide
+
+ you stick dos youll wonder why you cant multitask
+
+again i ask why cant unix os type os do all miraculous things
+ ide harddrive can single scsi hard drive

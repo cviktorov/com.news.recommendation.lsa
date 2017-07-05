@@ -1,0 +1,31 @@
+article cxfeciegenesisnredmaus avinashgenesisnredmaus writes
+i have internal modem i configure com irq 
+when i insert card my dos pc shows up
+ com irq coms address e
+
+when i get debug dump data shows
+ address e belonging com even though modem
+should com
+
+
+ common misconception shared my many manufacturers programmers
+ users alike com example simply third equipped comm
+port necessarily one io address e bios just
+searches sequentially through set potential comm port addresses 
+first equipped port finds become com etc youre playing 
+ rules you cant have com unless you have com equipped set
+ standard whatever means port addresses merely reflects 
+order which bios searches io address space its search 
+serial ports
+
+so what you have indeed com nonstandard address e were
+ address th table slot instead programs which query bios
+ determine number installed comm ports would find 
+field bios data area which contains number would indicate 
+ comm ports installed frankly i dont know simgle
+program would actually have problem 
+
+
+bob nichols
+att bell laboratories
+rnicholsihlpmihattcom

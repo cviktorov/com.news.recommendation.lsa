@@ -1,0 +1,57 @@
+bruce maynard dracuumemechiilus wrote
+ article malpsuvmpsuedu mitch lewars malpsuvmpsuedu writes
+ can someone give me specs
+ null modem cable i ferget
+ which get crossed 
+ malpsuvmpsuedu
+
+ thats easy one carry all pins straight thru exception 
+ pins which should crossed
+
+ someone else already mentioned dont carry thru other pins
+
+plan minimal null modem
+sg sg
+td rd
+rd td
+ youre transfering files betwen pcs ought work unless
+you have persnickity comm program
+
+plan b null modem modem control
+sg sg
+td rd
+rd td
+dcd dtr
+dtr dcd
+some comm software wait dcd before transferring anything
+ software raise dtr enable modem accept call
+ cable each sides dtr drive others dcd
+
+plan c null modem hardware flow control
+sg sg
+td rd
+rd td
+rts cts
+cts rts
+ highspeed transfers you want flow control
+
+plan d deluxe null modem combine b c
+sg sg
+td rd
+rd td
+rts cts
+cts rts
+dcd dtr
+dtr dcd
+ one ideal leaves out dsr ri rarely used anymore
+ youre really paranoid you just have th wire spend
+you might add
+fg fg
+
+ pin numbers above obviously pin connectors
+i dont have pin pinout handy
+
+
+wayne hamilton
+inethamiltonosiriscsouiucedu
+lowtekbox urbana il voice bbs

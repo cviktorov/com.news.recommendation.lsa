@@ -1,0 +1,753 @@
+send follow ups compsysmacadvocacy sorry about header 
+pnews here does let one easily change headers i gave up after 
+year trying sheet also available ftp sumexaimstanfordedu 
+ infomacreport macibmcomparetxt
+mac ibm infoversion 
+
+ reason general data sheet consolidate condense 
+information out so people both camps can clear accurate 
+about what saying about machines since computer technology 
+ always changing always going points which sheet 
+ lacking incorrect information so please just dont say sheet 
+ incomplete incorrect also give me clear concise information 
+make needed corrections all prices us dollars
+ keep data sheet organized please provide possible article 
+citations information provided corrected keep opinions 
+ minimum general data sheet keep info provided simple so 
+i can understand what being talked about can explain others 
+finally keep information relevant section corrected example 
+os code rom software contained hardware so more 
+ supported os disk software data hardware section please 
+thank you
+note proper reading off line document should point monaco
+
+special thanks andrewaardvarkucsuoknoredu chihuahua charlie 
+andrewfripwvtekcom andrew klossner bellpeteryaleedu peter bell 
+bcolemanhayescom bill coleman cjandrewcmuedu carl b jabido d
+jwanadakthse jon wtte ephraimthinkcom ephraim vishniac 
+fjandrewcmuedu faisal nameer jawdat gsidlercafeeecsnwuedu 
+gabriel sidler juliandeepthnkkiwigennz julian harris 
+erickkruegerumccumichedu kruegerenginumichedu 
+mattwardsgimedyaleedu matt healy markbilpincouk mark allerton 
+jokimjarthurclaremontedu john h kim memjhufosphajhuedu mel 
+martinez nanmattksuksuedu nan zou pwagnerusoraclecom 
+sfulleriastateedu stroblgmdde wolfgang strobl 
+jkirvinpafosuhqafmil phillichipsintelcom 
+shaikhaduvmocsdrexeledu sxjcborcaalaskaedu jay c beavers lewis 
+kaweckinovellcom lamontcatfishrtsgmotcom bradley lamont 
+cerrombclrutgersedu cerro joseph mparkutmemutmemedu mel park 
+logulloapplelinkapplecom jeff logullo zraihouamococom robert 
+irlbeck mikewapplecom providing some information made 
+ list possible
+ contents
+cpus
+hardware
+ monitor support
+ expansion
+operating system
+ os number crunching
+networking printing
+
+ cpus
+ note i am only showing motorola intel cpus used mac most ibmpc 
+clone machines example since apple never used motorola 
+ mac chips listed years only appear dead cpus 
+ indicate first last year used cpu
+cache note both ibm mac use caches external cpus external 
+caches increase speed cpu part most 
+ present macs external caches builtin while ibm 
+optional though machines generally sold them installed since 
+ many different external caches cpumac ibm scsi video disk 
+ static rammac each having different effect cpu performance 
+ machine kb static ram cache iici iifx iivx seller 
+cache card installed some iicis expansion iici cache cards go up 
+kb dependent i have decided leave them out list
+note alu industrys defacto standard cpu bit classification
+ibm alu registers external cpu features
+cpu bus address cache notes
+ none 
+ none segmenting
+ none protected mode
+ none mmu bit protected mode 
+sx one k fpu
+ one k fpu
+dx one k doubled internal clock rate
+dx being demoed mhz mhz mhz planned
+pentium k code cisc chip risclike 
+ k data features issue superscalar 
+ p writeback bit
+ fpu path pipelining speed
+ specint specfp
+ 
+
+sx chip bit internalbit external architecture
+ sx chips can address mb maximum ram
+sl low powerv sx builtin power management used mainly 
+laptops
+slc ibm v sx k onchip cache added john h kim far 
+john h kim knows only used ibm models
+slc neither two chips have name have fpu cyrix basically 
+sx sx socket k cache improved integer math speed ibm 
+equivalent sx except has k onchip cache
+
+ ex dx chip runs mhz rest machine runs mhz
+pc week pc mag latest line cisc chips 
+pc mag samples released march machines 
+ announced until least may pc week cpu systems 
+ up pc mag 
+
+mac alu registers external cpu features
+cpu bus address cache notes
+ none mb limit
+ code parallel processing
+ two mmu k burst mode
+lc two k fpu
+ two k mmu fpu pipelining doubled 
+ internal clock rate
+development discontinued favor 
+ branch better fpu 
+ target superscaler pipelining cache 
+ line bursts equivalent 
+ capabilities speeds 
+ pentium
+
+includes data instruction code caches lc 
+have builtin caches both
+ mac designs created mb limit
+ has clocks internal processor clock pclk x freq 
+external bus clock bclk which one used rate chips 
+bradley lamont motorola data book some compilers produce programs 
+sensitive pclk so act clock doubler 
+chip very compiler program dependent compliers maybe written 
+ allow programs take consitant advantage s pclk 
+future now studies one byte article which showed 
+ roughly dx very dependent machine os 
+ programs tested representative general performance
+motorola claims pc week 
+
+ powerpcs both ibm mac machines i have listed them 
+separately eliminate redundancy motorola cpu risc chips
+
+powerpc alu registers external cpu features
+cpu bus address cache notes
+mc int k speed specint 
+ fp combined specfp 
+ id 
+mc low power mc desktop portable systems out end 
+ 
+mc high performance mc high end machines out st q 
+ 
+mc int k out mid 
+ fp combined 
+ id 
+
+pc week pc mag select venders were sent sample 
+mc chips motorola pc week some nubus boards 
+containing early samples powerpc have been given apples alist 
+developers pc week macweek mcmhz
+mcmhz pc week systems versions
+out mid pc week 
+
+cpus comparison list
+ general rule thumb motorola chips faster than intel chips 
+same frequency dx intel has chips 
+higher frequencies than motorola so evens out macintosh bible th 
+ed supports comparisons between intel motorola chips 
+ above
+
+ bit vs bit chip data pathaddress 
+linesdata address registers mb limit macs brings 
+down lower chips otherwise would compare 
+
+ hardware segmenting vs s bit alu chips 
+come have usable builtin mmu unlike successors 
+hardware segmentings protected mode used os windows x 
+ use hardware segmenting bit nature put between 
+ features lcs bit data path strenghthens 
+ comparison
+
+ two bit chips mmus protected memory aux 
+ present only mac os use s protected memory feature 
+apps system x uses feature protect ram disk created 
+memory control panel supported only powerbooks quadras 
+ color classic lcii bit hardware data paths makes s them 
+comparative sxs
+
+sx lc same without fpu used low cost 
+solution people who do need fpu only programs sensitive 
+pclk pipelining does lc behave like dx fpu dxsx
+
+ two bit microprocessors builtin fpu mmu k 
+internal cache which implemented two k caches one 
+ only programs sensitive pclk pipelining does 
+behave like dx
+
+pentium both planned superscalar both have heat 
+problems chips may flounder against cheaper pc week 
+ pc mag earlier released pc week macweek 
+ pc week less leat producing degrees f pentium
+pc mag partly ported powerpc chips 
+
+powerpc powerpc cpu line planned run programs from dos 
+windows x os mac os top poweropenaux unix later 
+pink taligent os using emulators necessary oses themselves 
+ shell ak how softpc os does dos
+
+hardware 
+ effort remove reconfiguring system almost every time you 
+add something requirement addin cards drivers video operating 
+systems ibm world intel microsoft other hardware software 
+developers working out plug play standards pc week 
+color supportdisplay
+ mac mhz pixel clock standard all present macs support use 
+bit color through bit color quickdraw rom bit color quickdraw 
+allows almost transparent capability display edit xbit images y
+bit color retain all colors ybit color where x y 
+independently regardless monitor resolution 
+dpi color dpi palettebook monitor type including 
+autosynchronous vga mcga svga monitors ranges including hz 
+vertically khz horizontally only hardware video adaptor macuser 
+aug older machines supported color se ii iix 
+iicx had only bit color rom needed software patch use bit 
+color macuser special 
+ keep costs down speed up most macs have only bit display 
+capability builtin most those can expanded display bit 
+color presently quickdraw optimized dpi display quickdraw qx 
+ change 
+ addition quickdraw allows macs nubus slot more one 
+monitor used any combination from two monitors showing same 
+thing multiple monitors acting one large large monitor any degree 
+ overlap pictures
+vram video ram standard present nonpowerbook macs handling 
+ builtin video from bit color palette vram provided runs bit
+ color x display expandable bit color bit x display 
+sound output standard all macs since k stereo sound became 
+ standard se
+
+ibm even though pcs have rom bios definitions how operating system 
+interacts video hardware nan zou use drivers bypassing 
+bios video hareware inconsitancies see super vga below nonstanderzation
+ clone bios have left resolution video display hardware os program 
+interaction up os video hardware question faisal nameer 
+jawdat addition ibm clone makers never bothered provide 
+standard hardware mechanism software determine what display mode 
+actually present matt healy nor standardized screendrawing toolbox like 
+macs qd result os must very well written detect some modes 
+especially some third party cards use them consitantly present 
+things so dependent interaction program os print driver 
+ monitor card editing bit pictures regardless color mode os 
+ monitor typecard combination one can do mac impossible 
+ ibm example one cannot edit bit color picture done os 
+ svga monitor vga bit color palette dos 
+ still have all colors one started out 
+later ibm machines have integrated graphics accelerators faster 
+processors modular upgradeability may have builtin sound cards cd 
+rom ethernet pc week 
+mda monocrome display adapter
+ original charactermapped video mode graphics x text
+cga color graphics array
+ x colors x bw color palette bad eyes
+ega enhanced graphics array
+ x colors from color palette some lower res some versions 
+ could run colors bearable eyes
+vga video graphics array
+ x colors x colors some others two 
+ most commonly used all modes have k clut from 
+ bit ibm bit mac color palette mhz pixel clock
+ mel martinez monitors use analog input incompatible ttl signals
+ from egacga etc 
+mcga multicolor graphics array
+ subset vga provides all features mda cga lacks some ega 
+ vga modes like vga xx dictionary computer termsdct 
+ common initial ps implementation from ibm some ps models
+svga super vga
+ standard way others were instead catch 
+ all category group video cards each manufacturer 
+ using own implementation scheme svga chaos people debating
+ what svga what effort make svga more 
+ standard vesa established used newer units things
+ still mess video either k m today resolution
+ x x colors common newer ones since 
+ have sierra hicolor ramdac giving bit colors x 
+ some very newer ones can do bits per pixel usually 
+ x speedwise too much variation some very slow western digital 
+ paradise based example some very fast s c based example 
+ some soso like tseng et very popular chipset some limiting 
+ factors overcome mhz vl bus s linear address mapping were 
+ mhz isa bus architecture where cpu looks card through 
+ k window etc
+other nonsvga standards 
+
+ ibms own standard interlacing graphics accelerator graphics functions 
+ like linedraw polygon fill etc hardware some clone implementations 
+ from ati fastest video available today though some clone models do 
+ have interlacing 
+tms high end graphics coprocessors usually some
+ do bit speeds up vectororiented graphics like cad
+xga extended graphics array
+ newer faster than only available mca busbased pss clones 
+ coming out soon emulates vga ega cga dct max resolution 
+ xxb same also some bpp modes
+xga
+ accelerates graphics functions up times faster than standard vga 
+ windows os including line draws bit pixelblock transfers area
+ fills masking xy addressing has intelligent way detect co
+ exist other xga cards so multiple desktops like mac may 
+ far away since architecture its resolution color depth 
+ isnt fixed ibm implements only bit color while other 
+ companies can have bit color through ibm technical licenses refresh 
+ rates up hz ensures flicker free rock solid images reduce visual 
+ discomfort vga compatible up x os
+some monitor types usable macsee mac section above specific details
+
+expansion
+both mac ibm
+scsi only external device expansion interface common both mac ibm
+ allows use any device hard drive printer scanner nubus card 
+ expansion mac plus only some monitors cdrom 
+ main problem lot external devices which internal 
+ terminated which causes problems more two devises off scsi port 
+ scsi chain supposed terminated only begining 
+ end any other set up causes problems either mac ibm 
+scsi devices per scsi controller bit asynchronous mbs ave
+ synchronous mbs max transfers difference due scsi software
+ drivers fast scsi misname bit scsi scsi mode
+ see scsi details
+scsi devices per scsi controller scsi mode scsi fully
+ scsi compliant bit scsi tends implemented very fast
+ scsi since does require different controller interfaces 
+ hardware software bit scsi do transfer speeds 
+ mbs mbs burst bit mbs mbs burst bit 
+ mbs mbs burst bitwide fast since bit scsi can
+ use scsi software drivers hardware bit scsi speeds 
+ limited devices sometimes mistakenly called fast scsi 
+ bit fast scsi requires scsi software driver scsi electronics
+ can still use scsi ports wide bit bit scsi require 
+ different scsi port electronics software driver from scsi which
+ makes them more expensive than other scsi interfaces
+mac scsi asynchronous scsi builtin standard since plus even though 
+ apple developed some specifications scsi controlers os scsi manager
+ needs rewritten take full advantage features both scsi
+ interfaces result present scsi macs use bit scsi fast 
+ asynchronous scsi presently quadras only macs scsi
+ controller chip builtin digital review oct v n p 
+ though lack some other parts hardware like wide scsi port 
+ interface since other macs require nubus card use scsi older nubus 
+ macs had bottleneck due speed nubus cpu rumorsome
+ cyclone macs june come wide fast scsi port standard 
+ have rewritten os scsi manager
+ibm scsi scsi too wide spread yet generally bundled 
+ systems except addon eisa vesa local bus adapters avalable
+ like mac bit scsi used very fast scsi most controllers
+ out unlike mac ibm has exact scsi controller specifications
+ which results added incompatibilities scsi
+
+mac
+memory expansion few exceptions mac has used nonparity pin 
+ bit simm memory expansion since plus while pin bit parity simms
+ could used macs only special iicis could make use parity 
+ feature convension both simm types called pin simms iifx 
+ used pin parity simms lc iii c q all use new 
+ pin simm accessable bits time used ibms
+ mac does complete memory check startup writingreading every
+ memory location something seriously wrong simm mac 
+ boot give sound chord indicating what problem 
+ since macs made before feb managed memory baced data path simms 
+ had installed pairs bit sets bit centris 
+ quadra eliminate new memory management setup 
+ allows memory upgraded one simm time simms same 
+ size used memory interleaved across two simms resulting 
+ performance boost ram access macworld apr 
+printers adbs modems builtin interfaces standard
+monitor interface sound input builtin most present macs 
+pds available se all present nonpowerbook macs bit se 
+ portable lc lc ii classic line bit operates cpus mhz 
+ maximum through put data path bytescpus mhz q c 
+ mhz mbs q q mhz mbs standardized 
+ lc bus designs adapter one nubus card can used 
+ iisi c problem some cards have timing dependency which slows 
+ through put down
+nubus mac ii bit mhz bus clock transactionbus cycle ratio
+ contiguous handshake transactions mbs theoretical peak
+ mbs builtin all modular macs except lc series c 
+ performa se could adapted use even 
+ mac plus scsi nubus supports every possible expansion from cpu ethernet 
+ dma
+nubus nubus mac ii back compatable mhz bus clock avg throughput
+ mbs burst mode mbs future card designs instead 
+ old 
+quickring peertopeer bus used parallel nubus apples 
+ vlbus architecture identical vlbus byte 
+ burst mode mbs byte development
+cpu expansion handled either through pds nubus unlike pds 
+ nubus cpu cards exampleradius rocket allow use multiple processors 
+ same time like having two more macs same box able 
+ dual task joinly process depending card software involved each 
+ nubus card needs its own memory most nubus cards type come 
+ mb ram simms card standard
+
+ibm
+memory expansion parity simms nonparity simms some newer models do mac
+like simm memory check dozen so different types memory boards
+
+hd interfaces limited hard drives design lack development 
+mfm modified frequency modulation rll run length limited
+ only used smaller mb hard drives
+ide integrated device electronics 
+ asynchronous mbs max synchronous mbs max transfer
+ currently most common standard mainly used medium sized 
+ drives can have more than one hard drive 
+esdi enhanced small device interface
+ mbs throughput generally considered better interface than scsi 
+ many ways common enough practical consideration outside 
+ hard drives device choices very limited compared scsi 
+
+bus interfaces
+new plug play isa eisa compatable cards may have problems working 
+ old cards infoworld pc week vaporware 
+isa
+ bit interfaces common has bit data path limit which produces 
+ mb limit which software workarounds pc mag 
+ mbs byte uses edgetriggered interrupts cant share them
+ hence comes irq conflict limited busmastering capabilities some cards
+ arent bandwidth limited com ports lpt ports game ports midi card etc
+ while others video disk controllers dominant factor its
+ showing its age most isa motherboard designs bit
+ pc world feb 
+mca micro channel
+ ibms bit bus allows use more than one cpu computer 
+ dct anything can talk anything fast two components 
+ involved can handle never took off because incompatible isa 
+ eisa planned bus interface ibm powerpc carl jabido
+eisa nubus mac ii closest mac equivalent
+ bit mhz burst mode mbs also has ability 
+ selfconfigure cards like mca allows multiple bus masters sharable 
+ interrupt dma channels multiple cpu use
+vesa local bus vlb sometimes mistakenly refereed pds
+ local bus standard runs cpu clock rate burst modes mbsbit
+ mbsbit byte limited three slots allows bus 
+ mastering coexist either isa eisa consitered ideal 
+ video disk io dell has filled claim violates one 
+ patents mel martinez
+quickring apples faster mbs burst version vlb architecture
+ byte might show up some ibm powerpc machines
+ byte development
+pci
+ intels version local bus intended totally replace 
+ isaeisamca development
+
+oses assumes full installation print drivers fonts multifinder etc
+ multiple application use
+mac
+k mb os hardware commands have been put rom allows 
+apple control its machine putting key hooks mac os quickdraw 
+menu commands print mouse scsi sound drivers etc rom which require 
+clone makers use rom chip read rom disks which requires 
+access proper mac since different macs have slightly different rom 
+chips plus vs classic example key hooks os support 
+interface rom programers do have worry much whether disk os 
+has necessary hardware commands those commands consitant 
+therefore can write smaller programs also allows apple greater control 
+over hardwaresoftware standards disk os can smaller 
+some tookbox command code rom lower ram requirements 
+totally disk based os macs use masked rom which fast dram jon 
+wtte
+ single program usage base requirements mb dd floppy 
+ cooperativelymultitasking base requirements mb hd floppy 
+ features gui cooperativemultitasker multifinder standard program 
+ interface standard stereo sound support snd network receiving part 
+ appleshare software bundled os has mb ram barrier 
+ bit os some third party products allow mb virtual memory long 
+ real ram below mb
+ print drivers
+l system some macs require system x
+x base requirements mb mb hard drive defacto standard 
+ run all features well mb mb hard drive lowest present 
+ nonportable mac configuration using up mb everything 
+ system disks hard disk space has features plus program linking 
+ within between computers iac builtin server capabilities filesharing 
+ can used older oses using appleshare client software can 
+ accessed macs max more speed practical iac requires x 
+ virtual memory machines mmu times real ram least noticeable 
+ iisi speed degradation drag drop quicktime builtin truetype 
+ support supports sound input aiff snd formats most present 
+ machines can access up gb true ram gb virtual memory 
+ both bit os use real ram beyond mb must bit 
+ mode older machines requires mode extension apples last 
+ free os
+ worldscript support speedier less ram usage than 
+ dot macweek pc week run bit mode 
+ older machines requires mode bit enabler extension 
+ marks start apple saling its mac os instead allowing free upgrades
+ bundled new machines x upgrades otherwise
+ installer has bug when upgrading may keep some old system 
+ fonts from previous system inside system file can eat up any 
+ ram benefits cause other problems apple itself recommends removing all 
+ fonts from system file
+aux unix needs mb ram mb suggested mb hard drive 
+ equivalent run bit preemptive multitasking os 
+ large due being unix needing translators between mac 
+ roms price 
+note sound output supported oses many formats 
+including following snd wave asnd fssd qssn smsd soun dcd 
+dcfl sound manager optimized sound standards snd 
+ aiff which causes some playback problems old formats though most 
+still play
+
+ibm
+ machiness have little gui code data hooks present hardware 
+programmers work so most coding must provided os 
+since hard disks were slow disk os code read ram addition 
+what little rom code also read ram process called shadow rom 
+ results faster implementation since ram faster proms 
+eproms having most os code disk has advantage being able 
+better optimize code given certain piece collection hardware which 
+ harder rom based system due patches needed addition 
+reduces need size patches major revision hardware 
+support needed
+side note ftc charged microsoft formed os trust providing 
+all feature documentation its oses developers outside ms designing 
+its windows dos apps fail under os undocumented windows 
+ deliberate code windows nt beta which causes install 
+abort os boot manager present gregory hicks infoibmpc digest v 
+ due conflict intrest one member vote ftc 
+judicial council action against microsoft tie which resulted 
+action rumorsthe ftc presue matter likely point 
+choosing new member whole new council addition government has 
+turned down microsofts copyright windows which would allow charge 
+ fee developers using hooks pc week 
+microsoft oses
+dos has k barrier its own memory manager mb barrier 
+ third party memory managers bit os requires each program 
+ must provide its own print drivers bit programs need dos 
+ protected mode interface dpmi compliant running dx bit 
+ protected mode break barriers contains gui shell present 
+ dos 
+dos dos added features builtin file compresion disk 
+ defragmenter debugger configsys file needs module 
+ networking cost through after 
+ byte april 
+dos bit dos development pc week 
+window runs top dos breaks k m barriers still has 
+ deal dos file structure base requirements mb floppy 
+ run well mb hard drive sx fast display adapter bit has 
+ equivalent macs qd called windows gdi graphics device interface
+ does have consistent application interface like early mac
+ programs nor very large program base compared dos 
+ still tends slow machine down infoibmpc digest v speed
+ more dependent display adapter cpu bill coleman
+ window programs tend disk memory hogs compared dos
+ counterparts byte april 
+window faster version window better memory managment base 
+ requirements mb hard drive run well mb hard drive sx 
+ apple plans release its print drivers pc week 
+windows workgroups run well mb ram dx pc world feb 
+ intermediary between win windows nt basically windows 
+ builtin peer peer networking support
+windows nt beta release takes about mb disk space including 
+ swap file mb ram betas notorious ram usage especially 
+ interaction between debuging code program compliers hence 
+ reports mb requirements released version supposed need mb ram 
+ gates himself now recommends mb ram pc week 
+ bit os has protected mode multitasking multithreading symmetric 
+ multiprocessing recoverable file system bit gdi has built 
+ networking osf dce compliant can handle up gb ram even
+ though some people see july release date infoworld nov rumor
+ final version available before oct 
+ infoworld may july vaporware th quarter 
+ pc week windows upgrades otherwise 
+ pc week 
+other oses
+pcdos ibms version dos runs windows much faster dos 
+ due faster file io video handling infoworld feb 
+dr dos same dos some extras like builtin data compression 
+ memory management enhancements still has kmb barrier later 
+ version novell dos may use version mac finder apple 
+ file management system pc week infoworld dec 
+os unix like features unix like requirements mb ram
+ mb uses mb hard drive dx cpu bit multithreaded 
+ multitasking os can address up gb ram has use fast swap file 
+ use more than mb ram isa systems using dma direct memory access 
+ ibm plans use taligents oops future versions 
+ infoworld oct 
+aix ibms unix system planned subset poweropen taligent os
+nextstep gui unix provide next features ibm machines beta out final 
+ version out may 
+solaris os x sunsoft port bit os symmetric 
+ multiprocessing multithreading builtin networking capabilities 
+ tools allow remote configuring adminstration features 
+ communication package client users server s users
+ server developer kitssoftware hardware 
+mac working name star trek apple had system running off intel 
+ chips looking making version available ibm 
+ computerworld nov macweek present planned run 
+ top novells dr dos require equivalent run apps 
+ need recompiled macweek viewed novells answer 
+ windows nt complexity pc hardware set ups one reason slow 
+ progress seems appleibms way leading powerpc line out 
+ late early pink os late early 
+
+powerpc
+rumoribm build its powerpc late infoworld june 
+macweek pc week have microchannel bus xga 
+video carl b jabido run native version aix mac apps pc week 
+ have been comments compatablity dos windows apps
+apples powerpc machine tesseract planned out jan 
+ have mc mhz mb ram mbyte floppy drive expected 
+sale near lc line prices down from projections macuser 
+
+macweek 
+poweropen aux bit preemtive multitasking os planned run 
+ powerpcs macs macweek intel compatibility uncertain
+ see mac above planned base requirements mb ram mb hard
+ drive macweek rumorahead schedule could out mid 
+ rumorthis could os ibms powerpc which due late 
+pink taligent os expecting delivery wall street journal 
+ may have some parts shipping os aix mac os 
+ poweropen powerpcs macweek 
+windows nt possible port macweek see ibm os section details
+solaris os version sun microsystems inc unix os run 
+ power pcs macweek one few oses directly state 
+ run windowsdos programs ibm os section details
+nextstep possible port see ibm os section details
+
+os number crunching mel park
+mac
+ arithmetic done consistent numerical environment sane standard 
+apple numerics environment floating point numbers bits long when 
+fpu present bits otherwise exceptions dividing zero 
+taking square root negative number do cause abort 
+handled logically consistent manner produces internal 
+representation infinity inf produces zero above treatment 
+ occurs fpuequipped machine even when sane bypassed 
+ fpu programmed directly
+
+ibm
+ floating point numbers bits hardware fpu bits when 
+emulated way handled dependent coding whatever 
+compiler assembler used program older dos complilers 
+exceptions could cause program aborts would abort dos 
+prompt point where occured most present compilers handle 
+better result little consistent handling numbers between dos 
+windows os programs nor between programs just one os
+
+networking includes printing
+wysiwyg printing can problem either mac ibm machines especially 
+ one sends truetype fonts older style postscript printer
+mac
+hardware builtin localtalk network port builtin printer port 
+localtalk has moderate speeds kbs requires special connectors 
+each machine up can run off either printer port 
+include very old macs network port standard today builtin 
+ethernet becoming common many older macs require pds nubus card 
+about each machine cards provide three connectors 
+transceivers thick thin baset ethernet
+ macintosh quadra family some centris models includes ethernet 
+interface motherboard transceivers available tokenring has been 
+network option since 
+software appletalk suite protocols standard mac os which can 
+use variety media types appleshare client software included os 
+ well can connect file servers novell netware com open 
+banyan vines dec pathworks apples appleshare servers system file sharing 
+machines afp servers running variety unix hosts mactcp allows 
+typical tcpip communications telnet ftp nfs rlogin later version 
+ have unix xopen transport interface xti builtin end 
+macweek thirdparty software connect nfs servers dec 
+pathworks provides decnet support peertopeer file sharing software 
+builtin system see os section full server software extra 
+printing requires connection printer printer being selected 
+ chooser changing printers selecting different name 
+chooser same true connecting servers
+printing bugs monaco truetype font different screen bitmap font
+ quickdraw qx suppossed fix similar problems
+
+ibm 
+hardware localtalk widely used ethernet tokenring
+software novell netware banyan vines decnet windowswork groups appletalk 
+protocols appleshare subset appletalk
+each msdos networking schemes general totally incompatible 
+ others once you have chosen one you pretty much lockedin 
+ product line from windowswork groups little more 
+forgiving removes some problem novell netware biggest 
+ percent corporate market general more powerful 
+offers better controlmanagementsecurity than appleshare its also more 
+complex set up manage change due use mac 
+finder file management system novell pc week 
+infoworld dec macweek 
+printing very os dependent
+dos its single user you plug printer parallel port 
+ dont worry about tweeking may needed poorly written 
+ software network printing controlled system mostly 
+ implemented actual program therefore performance varies from one 
+ software program next
+windows x supports standard drivers can do good job showing jobs 
+ print queue always lists printers active even 
+ becomes problem several incompatible printers 
+ same net because theres way software reliably determine 
+ which printer active right now windows workgroups more maclike 
+ intelligent about 
+os maclike os deals printers apps making calls os
+printing bugs due poor programing some programs all above oses do 
+ have wysiwyg printing fault programs question 
+ os involved
+
+price issue very dynamic mac providing more buildin features 
+than ibm ibm being more get only what you need mac price wars 
+ both worlds
+ ibm machines modualar nature prevents any kind true hardware 
+standarization which turn requires oses programs very complex 
+handle all variation hardware when one adds all standard mac 
+hardware features ibm builtin inputoutput sound support scsi pds 
+builtin monitor support builtin networking standard mouse interface 
+nubus higher machines mac tends cheaper equivalent 
+equipted ibm machine especially since some ibm monitors can used macs 
+which cuts some more macs cost macuser aug 
+ some prices using some info sheet macuser april 
+all macs below come pds slot vram scsi built except where 
+noted monitor extra builtin monitor interface provided card 
+needed except bit color display
+ibm planned slcmhz model mb hard drive color vga 
+monitor vram macweek sounds like color classic without scsi 
+sound support builtin network support fpu socket builtin expansion 
+bit color etc
+color classic mhz bit data bus sxmhz 
+equivalent fpu socket builtin monitor
+lciii mhz dxmhz equivalent 
+centris lcmhz depending program sx 
+dxsxmhz equivalent builtin ethernet i cdrom 
+pdsnubus slot vram bit color
+centris mhz depending program dx mhz dx 
+mhz equivalent pds nubus slots ethernet 
+ ethernet ethernet cdrom vram bit 
+color
+
+bibliography notes
+vaporware available digestvapor directory ftp sumex
+aimstanfordedu murphy sewall last issue april 
+infoibmpc digest back issues available from wsmrsimtelarmymil 
+directory pdarchivesibmpc
+dictionary computer terms rd ed isbm 
+
+ facts were known me may changed 
+new developments announcements corrections corrections 
+information welcome
+please email corrections 
+compuserve id 
+aol bruceg
+internet bgrubbdantenmsuedu
+
+final note since compsysibmpcadvocacy group has been 
+posted closest relevent groups composmswindowsadvocacy 
+compososadvocacy compsysibmpcmisc also since some mac vs ibm 
+articles have been showing up compsysmachardware i have included 
+newsgroup posting dont site compsysmac faq reason 
+ post compsysmachardware since faq itself does follow 
+internet guidelines especially defacto all faqs newgroup 
+hierarchy should posted all newsgroups hierarchy standard
+
+eliminate impossible what ever remains matter how improbable
+ truth sir arthur conan doyle through sherlock holmes 
+adventure beryl coronet adventure blanched soldier sign 
+four adventure brucepartington plans
+
+ computer your friendparinoia rpg

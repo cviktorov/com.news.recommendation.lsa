@@ -1,0 +1,57 @@
+hello all
+
+you net my last resort ill just change my job 
+ might faq eg mixing controllers havent seen any
+
+sys ami bios your runofthe mill multiio card 
+serialsparalfloppies 
+ ide controller clone gwex
+ jumpers affecting hd ctrller 
+ quantum prodrive lps m type cyl hds spt
+
+pb i want bring nd hand neat price
+ maxtor xtbe m ms bios type ctrller manages
+ real geom cyl hds spt
+ western digital wdvse esdi ctrller floppies
+jumpers set irq hw port addr f
+ bios addr ccc other floppyformat stuff
+
+goal have wd esdi secondarycontroller have both disks 
+simultaneously working being able boot from esdi too would 
+ nice bonus expected
+
+ultimate goal have room linux et al
+ex scheme i have mind boot from ide hd floppy mount
+ esdi root booting from esdi even from hd acceptable
+
+i have tried numerous all combinations avail work alone
+ can coexist witout hangups cant access esdi ide 
+depending setupjumpers
+
+useful suggestions might 
+ how do i tell bios setup about two ctrllers i guess nd hd
+ expected hang off same ctrller st
+ do i need some driver make work
+ some new bioschip any cards
+ do i have buy another controller make them hds happy ide
+ cheaper esdi hard find rather costly im 
+rich i wouldnt try scavenge around so soft slns preferred
+ adapters some sort i can hold soldering iron can change
+ chip put jumper
+
+also useful
+ bbs hotline western digital
+ ftp archives relevant info
+ expert stores toronto ontario area would miracle havent
+seen any really knowledgeable ppl while
+ any hints inner workings system 
+ anything else helped you similar situations prayers 
+
+direct posted replies ok
+many thanks
+cat
+
+ 
+catalin ivan email ivaniroumontrealca tel 
+ humancomputer interaction humainmachine 
+universite de montreal informatique et recherche operationelle

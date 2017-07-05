@@ -1,0 +1,192 @@
+article qsfakskcnetworkucsdedu doug p book
+dpbsdchemwucsdedu writes
+hi i think i have problem stereo sound output my quadra
+ i am totally sure because my roomate has same problem
+ his powerbook any info experience anyopne has would 
+greatly appreciated
+
+when i hook my quadra up my home stereo system following types
+ sounds mono far i can tell all play fine through both
+speakers
+
+system beeps already provided ones indigo ones i record
+
+armor alley
+spectre
+spaceward ho
+
+
+ following games only play out left channel
+
+lemmings
+out world awesome game btw
+glider 
+oids
+
+
+ still stereo system beeps do play stereo through both speakers
+ one im specifically referrring apocolyptic beginning which
+my roommate downloaded from some ftp site sumex
+
+
+all symptoms same my rommates he cant run
+ootw because he doesnt have color
+
+were both running system 
+
+
+
+does anyone lemmings other three games i mentioned above get
+sound out both speakers mac ii class quadra lc powerbook 
+
+greater centris se etc stereo machine
+
+i used have mac ii i sort rememeber lemmings playing 
+stereo machine just left channel i could 
+mistaken though were problem quad s pb
+s i am wondering why system beeps still play stereo 
+
+isnt problem our machines i wonder why games above 
+apparantly written support only one channel stereo when 
+could just use mono sounds so mono sound would least come out 
+both speakers like spectre etc do
+
+quadra s powerbook s have same roms my knowledge
+so maybe rom problem so though why wouldnt system 
+patch over problem
+
+
+
+
+thanks any help you can provide
+
+ article aprkthse jon wtte
+djwahemulnadakthse writes
+mac sound hardware diverse some macs play stereo 
+mix output se instance while others play 
+stereo only has left channel speaker while
+some truly mono like lc
+
+developers know stuff played left channel 
+guaranteed heard while right channel isnt some
+send data both some only send data left channel
+ first preferrable course
+
+okay i guess its time quick explanation mac sound
+
+ original documentation sound hardware im documents how 
+make sound directly accessing hardware basically you jam values
+ all even bytes from soundbase soundbasex 
+because
+ how mac some later machines generated sound 
+scanning
+ block daing every even byte odd bytes went floppy 
+some machines
+
+when mac ii apple sound chip invented designed 
+generate stereo sound also designed compatible we had
+once
+documented so storing bytes even values soundbase meant i
+want 
+play mono sound so emulated apple had since retracted
+
+documentation soundbase decided document lowest layers
+
+sound generation so apple never explained where stuff bytes you
+want
+ make stereo sound
+
+enter game developers sound driver current sound manager 
+inconveniently lame making games furthermore people who port from
+
+ibm dont want learn more apis so has become popular game
+writers write soundbase make sound since very easy
+
+since mac ii apple has had many different kind sound output
+hardware
+ only things have common writing soundbase
+works
+ some hardware mac ii iix iicx iici least writing soundbase
+gets you mono sound through both speakers some macs quadra
+
+ least writing soundbase gets you mono sound left channel
+only
+both technically correct interpretations original
+specification
+ one obviously preferable asthetic reasons
+
+ developers use sound manager i think sound driver mono
+sounds typically come out through both channels regardless 
+underlying hardware possible specify you want generate left
+channel only one does developers write sound base 
+games only come out left some games
+
+ other problem original mac ii only producing left channel sound
+ internal speaker while se mixes both isnt really related
+ due post generation amplification used motherboards 
+ different machines only affects true stereo sounds sounds which
+ actually mono play internal speaker matter what
+machine
+you have
+
+now more directly address question games you list
+lemmings
+out world awesome game btw
+glider 
+oids
+ also
+hellcats
+super tetris
+oxyd
+ many more just what ive tested
+
+cheat write soundbase so only left channel quadras
+
+
+other games you list
+armor alley
+spectre
+spaceward ho
+ also
+pga tour golf
+civilization
+ more again only from personal experience
+
+use sound manager work fine all machines
+
+ more story developers dont cheat
+really i am absolutely positively allowed do what i am about 
+do
+ im going say anyway
+stop cheating sound
+really soon you sorry even those without external speakers
+ disappointed your sound future hardware grace period
+ about end
+ sound manager understandable now works pretty well 
+work
+even better soon so use 
+
+ conclusion
+ doug isnt hardware problem least bug
+ jon isnt choice developers whether want send
+sound
+ both channels do right way taken care 
+automatically you cheat way make work all
+hardware
+
+
+have fun
+
+disclaimer number 
+i dont work sound here apple im just pretty well informed
+so dont write me sound questions
+
+disclaimer number 
+ says up above i wrote anything like grace period about
+ end bug your news feed since i am catagorically 
+allowed say anything like you know what i mean
+
+disclaimer number 
+i dont speak apple just me
+
+steve bollinger

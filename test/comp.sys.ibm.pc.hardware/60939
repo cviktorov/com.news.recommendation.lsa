@@ -1,0 +1,45 @@
+davidccatuucp dave write
+ we talking about scsi device eg hd scsi controller
+ 
+ we talking about scsi controller had chip upgrade
+using same chip scsi controller board
+we talking about scsi device eg hd scsi controller
+
+here rewrite my mac info sheet scsi section
+scsi only external device expansion interface common both mac ibm
+ allows use any device hard drive printer scanner nubus card 
+ expansion mac plus only some monitors cdrom normal asynchronous
+ scsi mhz fast synchronous scsi mhz difference between 
+ modes mainly software drivers
+ main problem lot external devices which internal 
+ terminated which causes problems more two devises off scsi port 
+ scsi chain supposed terminated only begining end 
+ any other set up causes problems either mac ibm 
+scsi bit devices per scsi controller asynchronous mbs ave
+ synchronous mbs max transfers bit scsi often mistaken 
+ fast version scsi see scsi details
+scsi fully scsi compliant scsi mode devices per scsi controller
+ bit scsi implimented very fast scsi since can run using
+ scsi hardware software drivers which limits devices which
+ results sometimes being mistakenly consitered part scsi bit
+ bit scsi require different ports electronics scsi software
+ drivers from scsi which makes them more expensive than other scsi
+ interfaces bit scsi seems run only synchronous mode hence term
+ wide fast scsi transfer speeds mbs mbs burst bit
+ mbs mbs burst bit mbs mbs burst
+ bit
+
+bit scsi biggest headache due fact only scsi 
+ i know can pump scsi speeds through scsi devices software
+controlers its main implimentation mac though you do see adds
+ scsi mbs maximum throughput pcs since bit scsi does 
+need all hardware including electonics software bit bit
+scsi cheepest scsi interfaces just pop out scsi
+electornics pop bit scsi electronics some people consider
+bit where scsi really starts i used one them 
+mbs average though put theoretical burst mbs scsi
+ bit scsi
+rule thumb scsin over mbs some type scsi
+
+bit scsi can use part scsi electronics which further reduces its cost
+compared bit scsi

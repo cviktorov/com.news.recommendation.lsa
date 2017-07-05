@@ -1,0 +1,169 @@
+article bluecispittedu geneticpittedu david m tate writes
+ive read all followups i thought id go back 
+original article make specific comments about method
+
+
+jaomegatestcom john oswalt said
+
+he has obtained play play records computer readable
+form every major league baseball game past several years
+he devised algorithm which i call sumoversituations wrote
+ computer program calculate every major league players contribution
+using works like 
+
+look every situation every game baseball season 
+situation determined inning score where baserunners 
+ how many outs each situation count how many
+times team eventually won game situation occured 
+ divide number times situation came up come up 
+ value situation
+
+ first done george lindsey late searly s 
+reported 
+
+articlean investigation strategies baseball
+authorgeorge r lindsey
+journaloperations research
+issuevolume julyaugust pp 
+
+later pete palmer did same thing using simulated seasons generate
+ larger set data avoid kind smallsample anomalies other
+people have worried about he reported thehiddengameofbaseball
+ john thorn gary skoog modified method bit did some work
+ what he called value added measure based situational values
+his were based directly marginal runs though win probabilities
+ results applied season were reported one 
+bill james baseball abstract books help me out here somebody
+
+ example situation might inning score runner second
+ outs were regular season major league games last
+year rockies marlins more year
+say situation came up those team ahead won
+ them value situation 
+
+description method look change win probability based bat
+ plus any baserunning creditdebit player amount each time
+ he gets plate appearance
+
+now each player sum up all his atbat baserunning values
+ season obtain overall value player obviously
+ sum all players values each game season 
+whole 
+
+thats only because you always credit x batter x pitcher
+theres validation involved
+
+ok theres very big problem here nobody has yet commented youre
+adding probabilities probabilities dont add runs you can add 
+total team runs breaks down how many runs joe contributed plus how many
+runs fred contributed etc probabilities dont work way bob
+increases his teams chance winning each pas does
+ mean bob increased his teams chance winning fact
+ doesnt mean anything because units screwy
+
+i agree disagree john saying batters efforts result
+ more wins losses while you probably correct 
+does mean more wins losses means something i would
+rather have player who increased my teams chances winning 
+each pas i would player who increased my chances winning
+ each pas thus appears me obvious
+positive association between johns statistic winning games thus
+before you disregard stat appears me further study must
+go what sort relationship 
+
+consider example bob hits out solo hr bottom first
+about your scale he does same thing again fourth 
+ score tied another again seventh score
+tied another finally ninth win game score
+ value bob hit solo hr plate appearances 
+ credited your method what does
+ mean bob responsible win certainly defense
+ always responsible you include pitching bob wasnt
+pitching fact bob only offense which lot 
+even close furthermore what about other team runs say
+ all came solo hr fred fred hitting hr tie up game
+which just valuable hr take lead see lindsey fred 
+himself have accrued good rating so so fred bob combined have
+amassed win one game theres clearly problem here
+
+ only problem here insistance number mean exactly
+how many wins team has first we using averages over many
+seasons applying them one game second remember some players
+performance take away from chance you winning 
+player who gets out gets negative probability most cases
+thus im sure any given game when you add up all numbers
+ team who won add up game sometimes
+ add up more one sometime less than one also
+ pitchers bad performances giving up runs may have given
+them large negative percentage game also any batter 
+pulled night would give large negatives 
+
+
+
+greg thinking about right things his intuition off 
+mark closers enormously important total number runs
+value outweighed when come prevented from comming
+ doubling which greg allows enough
+
+ another article i proposed test we can predict teams 
+wonlost record quite accurately looking how many runs total 
+score allow without regard when those runs score game 
+late runs really more important than early runs looking only 
+late runs should lead better predictor right
+
+ really only because you have smaller sample size i would
+think however number runs you score first inning
+would just good prediction how many runs you score 
+ last inning realize something else closer usually
+comes close situation blow out hard argue
+ any runs closer gives up game have equal importance
+ those given up first inning look closer giving up runs
+often means team lose many games other hand starter
+who gives up runs often still leaves his team chance win 
+offence has many more outs do something about i am 
+saying all late inning situations equally important either 
+i am down runs ninth really does matter how many
+runs my pitcher gives up ninth 
+
+heres another thought experiment apply method basketball what
+you find points scored first half game have almost
+exactly value because lead safe entire half yet play
+furthermore sub off bench who sinks winning free throws 
+ time clock gets game while star forward who 
+scored points first half before spraining his ankle gets zero
+
+does make sense
+
+
+ why would you assume teams probability winning would
+ before possesion which free throws were made look
+ you down point seconds left fairly high
+probability you win game you possesion 
+ball do forget somebody elses missed shots turnovers
+fouls bad defense etc caused negative chance team
+would win
+ 
+from reading all discussion statistic i feel those
+who critisize certain extent doing so out agenda
+ first look statistic valadates clutchness really
+does cluthness revolves around idea certain players
+ crucial situation elevate performance others performance
+goes down ive never seen convincing proof really happens
+so you assume clutchness means except
+ lot noice statistic has positive association 
+player performance way get rid noice you
+do believe clutchness certainly we could find out what
+ average value home run example we may find 
+instance home run increases your chance winning 
+ average while strikeout decreases your chance winning 
+i bet were done we would find statistic just
+ good other statistics we have predicting wins losses
+
+how do we evaluate relief pitchers say john sam have 
+exact same pitching statistics runs earned runs ks bbs
+etc both had exceptional numbers john however only pitched
+ closer situations while sam mop up man who more
+valuble team probably john who better 
+pitcher were probably about same
+
+ brian smith

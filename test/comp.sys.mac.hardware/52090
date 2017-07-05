@@ -1,0 +1,149 @@
+here how i modified my quadra higher speed previously i
+had been using variable speed overdrive accelerating my cpu
+ modification testing out more stable higher speeds
+
+your mileage may vary top speed you achieve cannot predicted
+before hand my personal q has tested fine up mhz thus far
+i didnt have higher speed clock oscillators hand test higher
+speeds
+
+parts
+
+clock oscillators pin ttl variety you need selection 
+speeds beginning mhz up cpu run 
+oscillator speed original one mhz unit i recommend
+getting mhz clock case you damage existing one
+
+ i obtained my clock oscillators from digikey 
+ less than each some part numbers 
+
+ mhz ttl clock oscillator part x
+ mhz ttl clock oscillator part x
+ mhz ttl clock oscillator part ctx
+
+ dont get half size clock oscillators wont fit
+
+ also cmos clock oscillators i havent tried one 
+ quadra work fine iisis
+ 
+socket obtain pin socket which same form factor 
+ pin dip package alternatively use machined socket pins
+ from augat style socket just cut them out socket
+
+cooling fan very small volt fan keep cpu cool 
+ must my vso came specially modified heatsink which had
+ fan built onto had passthrough connector which
+ tapped hard drive power cable you should rig up 
+ something similar risk frying your cpu
+ 
+procedure
+
+ insert usual disclaimer antistatic warnings here
+
+ remove top lid machine you see floppy disk 
+ hard drive mounted plastic tower follow usual antistatic
+ precautions course make sure machine off when you do
+ unplug all cables wall monitor power supply cords from
+ back mac
+ 
+ remove power supply pulling plastic interlocking tab 
+ tower forward simultaneously pulling power supply straight up
+ tab piece plastic from left posterior aspect 
+ tower which extends downward hook power supply you may
+ also feel horseshoe shaped piece right portion power
+ supply leave alone plastic tab from tower all you
+ need release
+ 
+ look rear tower assembly you see flat ribbon
+ scsi connector hard drive power cable flat ribbon cable
+ leading floppy drive disconnect all from motherboard
+ hard drive power cable connector has tab which must squeezed
+ release 
+ 
+ unplug drive activity led from its clear plastic mount
+
+ look down posterior cylindrical section plastic tower 
+ phillips head screw base remove taking care drop
+ case bit gummy glue your screwdriver helpful
+ here
+
+ remove tower assembly pulling medially plastic tab 
+ right side tower tab prevents tower from sliding
+posteriorly slide entire tower assembly cm posteriorly 
+lift tower assembly straight up out case
+
+ remove interrupt switch assembly strangely shaped plastic
+ device left front edge motherboard pull middle
+rear plastic prong up forward entire device release
+
+ unplug speaker cable squeeze plastic tab speaker 
+ free swing backwards free from case
+
+ remove motherboard form case lift front right corner 
+ motherboard about mm allows clear clear plastic
+power light guide slide motherboard forward about cm 
+motherboard comes directly out
+
+ locate mhz clock crystal small metal box near 
+ cpu chip note remember its orientation new clock oscillators
+must aligned pin same orientation
+
+very carefully desolder remove old clock oscillator some 
+ pins may bent over simply desolder unbend them sure
+your desoldering iron hot enough before heating board
+
+i used suction desoldering iron accomplish task 
+ appropriate first soldering experience motherboard 
+ multilayer design very fine traces easily damaged without
+proper care
+
+ install your socket socket pins where old oscillator once 
+
+ put mhz clock oscillator new socket you could use 
+old clock has solder its pins may come inside 
+socket cause corrosion problems later i suggest using new
+ mhz clock
+
+ install your cooling fan system complete modification
+
+ reinsert motherboard slide place
+
+ snap interrupt switch assembly speaker lock mother
+ board firmly plug speaker wire back motherboard
+
+ reinstall tower assembly first placing right wall 
+ tower against right wall case tower assembly about
+ cm posterior its intended position lower tower assembly 
+place while maintaining contact right wall case
+ once fully down slide tower assembly anteriorly until clicks
+ place
+
+ reconnect motherboard ends cables dontt forget floppy
+ drive cable
+
+ replace phillips head screw
+
+ drop power supply straight down place until clicks 
+
+ plug hard drive activity light back its clear plastic mount
+
+ reattach your cables power cords cross your fingers turn 
+ mac should make usual power chord doesnt
+something amiss immediately turn power recheck your
+handiwork all well you have my sincere condolences
+
+hopefully all work normally turn machine back off 
+replace mhz clock oscillator faster one reboot 
+ astounded 
+
+you need fully test machine many hours before deciding
+ particular speed truly usable my vso machine lockup
+might take hours operation occur brief time since
+modifying my clock oscillator hours i have had single
+problem
+
+good luck all who attempt modification small real
+risk you could well reach quadra speeds higher less than
+ parts
+
+guy kuo guykuouwashingtonedu

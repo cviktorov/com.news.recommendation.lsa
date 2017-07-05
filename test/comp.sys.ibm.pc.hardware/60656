@@ -1,0 +1,54 @@
+article rrslinnnvsenatorbedfellowmitedu jfcathenamitedu john f carr writes
+
+im running linux eisa system im having what i think 
+hardware problems could software i dont see why id 
+only one having trouble id like some advice how best debug 
+
+ symptom when i try build gcc i get unpredictable unrepeatable
+results sometimes o file valid aout format recompiling 
+file gives me valid binary sometimes compiler aborts dumps core
+ works fine when run again same input compiling same
+source files same arguments gives slight differences few
+object files note linux unlike many other systems does put
+timestamps object files so compiling twice should give bitidentical
+results
+
+i also have occasional filesystem corruption my scsi drive 
+could caused using development software could also related 
+my problems compiling compile problems caused disk
+problems i get same results whether i do my work ide scsi
+disk
+
+ive set memory speed cache write speed recommended values
+
+recommended what dos junk
+
+
+i suspect external cache i have real evidence 
+
+ motherboard nice supereisa kb writeback cache dx
+ mhz processor
+
+what im looking 
+
+ system test program run under dos linux
+
+linux gcc fire up gcc compile libc kernel 
+same time running xr
+
+
+ suggestions about cause problem
+
+bad memory bad motherboard bad cache
+
+
+ suggestions about how debug problem
+
+
+change wait state ram
+turn off turbo
+change bus speed
+swap ram
+
+
+hj

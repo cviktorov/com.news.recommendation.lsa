@@ -1,0 +1,41 @@
+article almadenibmcom petrackvnetibmcom writes
+ i have tried almost everything under sun get null modem connection
+ between mac duo pc i have used mackermit versaterm 
+ mac side i have used procomm kermit softerm os 
+ pc ps side i have used nonhardware handshaking hardware
+ ahdshaking cables know my hands shaking from effort nothing
+ has allowed file transfers from mac ps
+
+
+
+ could i hear from someone attesting can really pump information
+ out serial port duo fast like via modem via 
+ sysex dump
+ 
+ could anyone duo help me out i am going absolutely insane
+ i wanna know problem my duo all duo s all duos
+ just me
+ 
+
+
+hmmm sounds vaguely similar problem i had long time ago when i 
+trying use kermit i building serial connection between my duo 
+ my next i think problem handshaking basically you need 
+ make sure handshaking protocol same both sides safe 
+place start selecting handshaking either end one problem 
+ zilog serial chip seems get permanently wedged you talk 
+wrong only reset clear i dont know specifics 
+could nonlinearity screws up your attempts debugging system 
+ could very well you doing things righteventually one 
+wrong move like trying bad handshaking protocol can screw up any further 
+correct actions until next machine reset i have wedged my mac also 
+my next way
+
+now i can send files back forth between duo next without any 
+problem pretty high speeds too
+
+i dont know what kind chip pc uses i think zilog 
+pretty standard
+
+hope helps
+avery

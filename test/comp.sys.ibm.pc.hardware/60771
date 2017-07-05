@@ -1,0 +1,59 @@
+article aprjulianuwoca wlsmithvalveheartrriuwoca wayne smith writes
+ article richkaprgozergrebyncom richkgrebyncom richard krehbiel writes
+ can anyone explain fairly simple terms why i get os i might 
+ need scsi controler rather than ide performance suffer 
+ much mb so drive i dont have tape drive cdrom
+ any help would appreciated
+ 
+ so when youve got multitasking you want increase performance 
+ increasing amount overlapping you do
+ 
+ one way dma bus mastering either make 
+ possible io devices move data out memory
+ without interrupting cpu alternative cpu move
+ data several scsi interface cards allow dma 
+ bus mastering
+ 
+ how do you do busmastering isa bus
+ 
+ ide however defined standard interface
+ created ibm pc which requires cpu move all data
+ bytes dma
+ 
+ were talking isa bus here you can only have dma channel
+ active any one time presumably transferring data from single device
+ so even though you can have least devices scsi bus explain how
+ all those devices can dma transfers through single scsi card
+ isaat bus same time
+
+think
+
+its scsi card doing dma transfers disks
+
+ scsi card can do dma transfers containing data from any scsi devices
+ attached when wants 
+
+ important feature scsi ability detach device frees 
+scsi bus other devices typically used multitasking os 
+start transfers several devices while each device seeking data 
+bus free other commands data transfers when devices 
+ready transfer data can aquire bus send data
+
+ ide bus when you start transfer bus busy until disk has seeked
+ data transfered typically ms second lock out other
+processes wanting bus irrespective transfer time
+
+ 
+ also im still trying track down copy ibms reference book
+ from pc technical manual page 
+ 
+ fdd adapter buffered io bus uses system board
+ direct memory access dma record data transfers
+ i expect see something similar pcat hdd adapter 
+ so lowly lowdensity original pc fdd card used dma pcat
+ hdd controller doesnt makes real sense
+ 
+ 
+guy dawson hoskyns group plc
+ guydhoskynscouk tel hoskyns uk 
+ guydaustinibmcom tel ibm austin usa

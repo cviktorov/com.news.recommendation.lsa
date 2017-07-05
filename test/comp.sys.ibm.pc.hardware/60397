@@ -1,0 +1,87 @@
+qliinnuhnonamesnerdcufledu lionessoakcircaufledu writes
+
+im using inth read my joystick hideously slow something
+like my cpu time being spent reading joystick 
+ program does nothing printf joyread
+
+ you only do readprint reason joystick stuff
+ take time even efficient
+
+ problem lot programs trap inth like smartdrv 
+so slow hell interface can i read joystick port 
+ reasonably safe fashion via polling isnt platform 
+clockspeed specific
+
+ truth int h joystick reading slow i read directly
+from hardware port note doing so exposes you intermittent
+disturbance from interrupts so you may want read say twice 
+row keep lower results dont just turn interrupts off may
+prove detrimental health any high speed comms other
+devices
+
+here example how do 
+
+ joyc 
+
+ example how read pc joystick port polling hardware port
+ directly
+ uses inpoutp byte port access
+ timeout when int count counts up zero
+ sample reads one port presented b comments
+ you can read both once merging two time out
+ when either joystick connected
+ 
+ need optimize routine since runs long 
+ joystick circuitry needs
+ 
+ written eyal lebedinsky eyalisecanberraeduau
+
+
+include stdioh
+include stdlibh
+include conioh
+
+extern int readjoy int x int y int b int b
+
+define joyportx
+
+definexjoyx joystick b use x 
+defineyjoyx joystick b use x 
+define xymaskxjoyyjoy
+definebutx joystick b use x 
+definebutx joystick b use x 
+
+int returns ok 
+readjoy int x int y int b int b
+
+register intcount
+register chartemp joy
+
+temp charxymask
+count 
+outp joyport set trigger 
+do 
+temp joy charinp joyport
+ temp xjoy
+x count
+ temp yjoy
+y count
+ while count temp joy xymask
+b joy 
+b joy 
+
+return count
+
+
+ main demonstration
+
+
+int
+main 
+
+intrc x y b b
+
+printf hit any key exitn
+while kbhit 
+rc readjoy x y b b
+printf rd d d d d rc x y b b

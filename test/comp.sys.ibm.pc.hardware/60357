@@ -1,0 +1,106 @@
+wayne smith wlsmithvalveheartrriuwoca wrote
+ article qkkvinnndkdnsnmsuedu bgrubbdantenmsuedu grubb writes
+ point view why does scsi have advantage when comes multi
+ tasking data data could anywhere drive can
+ scsi find faster can get off drive computer
+ faster does have better cache system i thought scsi good 
+ managing data bus when multiple devices attached we 
+ only talking about single drive explain why scsi inherently
+ faster managing data from hard drive
+
+ ide integrated device electronics 
+ currently most common standard mainly used medium sized 
+ drives can have more than one hard drive asynchronous transfer mbs max
+
+ why dont you start specsheet isa bus first
+ you can quote scsi specs till youre blue face 
+ exceed isa bus capability whats point
+
+who said isa necessary eisa vlb only interfaces worth
+investing thousands dollars eg new pcs worth money 
+
+ who says ide limited megssec what about vlbide does anyone
+ know how perform
+
+you didnt read carefully vlbide uses same connection mechanism
+ standard ide transfer rate limited ide whether its
+interfaced isa eisa vlb matters 
+
+ so its lowest setting scsi interface asynchronous scsi mode averages 
+ through put maximum ide asynchronous mode full scsi mode
+ blows poor ide out window down street garbage can
+ implimented what system 
+
+ mine one thing scsi blows ide out water hands down 
+ide has better throughput why isnt used workstations file
+servers 
+
+ problem becomes can drive mechanisim keep up those through put
+ rates where bottleneck cost scsi comes from 
+ interface itself more more from drive mechanisims use 
+ scsi through put 
+
+ given original question scsi used only single hard drive
+ controller necessary get scsi drive do
+ least maybe megssec scsi choice make any sence
+ what does meg megssec scsi drive cost
+
+ thats nice thing multitasking os scsi can use both drives
+ once ive got unix loaded one my pcs along windogs os can only use one two ide drives one time its pretty ugly
+
+i just bought quantum my mac home i paid i
+havent seen ide drives cheaper
+
+ original cga cart back i think original ega card
+ pga scsi has stood relatively alone coming down
+ price mainly because were talking about pcs suns sparc
+ sgi name your favorite unix workstation after millions
+ pc buying decisions over years scsi has had plenty time 
+ come down price
+
+ actually were talking about scsi being expensive simply because
+nobody did common interface pc had common read
+easily implemented method adding scsi pc like sun 
+mac youd find scsi connection medium choice
+
+ i wont argue scsi standard makes good well implimented
+ data highway i still want know why intrinsically better
+ than ide isa bus when comes multitasking oss when
+ managing data from single scsi hard drive
+
+ single drive scsi more expensive you bought your pc 
+expandibility so youd want add more drives whatever 
+following why i find scsi intrinsically better than ide
+
+ partial list
+ you can add many different types devices access them 
+concurrently
+ scsi device works many different machines i have mac
+ pc home moving hard drives between them very nice
+ scsi hook them up away go
+ scsi devices work together better than ide devices 
+instance recently i added older connor meg ide maxtor
+ meg ide connor must setup slave 
+work other way scsi you set address check 
+termination plug away goes
+ i have problem ides mutual exclusion i notice 
+ time takes switch from accessing drive c drive d 
+quite long compared time takes switch from drive c
+ d scsi system under multitasking os very
+noticable many things can going once
+
+one neat thing ive noticed lately fringe benefit has been 
+ability add older almost dead drives storage scsi system 
+little problem weve got bunch almost dead meg drives ive
+added my pc ive now got interface full does allow me 
+have meg drives meg drive tape drive meg drive
+all same card 
+
+simply put scsi handier than ide mysterious jumpers figure out
+
+greg
+ 
+
+you cant go against nature because when you do greg shaw
+go against nature its part nature tooshawfeanorxelcom 
+love rocketsuunetcsnxelcomshaw

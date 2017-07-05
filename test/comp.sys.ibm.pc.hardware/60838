@@ -1,0 +1,133 @@
+kevin kimmell computer sciencegerman undergrad kekimmellvaxcnsmuskingumedu wrote
+ 
+ i am interrested extrodinarily simple concept null modem
+ cable actually i have idea so dont count last statement what im
+ asking what pins does use what its specifications i just want
+ solder one myself instead buying one i dont even know what port 
+ used
+ 
+ help me please kekimmellvaxcnsmuskingumedu
+ 
+ kevin
+ 
+ ps im intending use cable pctopc transfers via laplink 
+ telix ideas info gladly accepted
+
+i do have specific knowledge laplink telix my recommendation
+ any package follow each ones instructions making null
+modem cable reason each one may different since isnt
+really standard pc pc communications following tutorial
+i wrote up give you understanding about rs null modems
+ you should still check your software
+
+i eplain couple details rs rs 
+ commumications specification communicating between computer 
+modem actually can between any end system any communications
+hardware terminology used data terminal equipment dte data
+communications equipment dce rs spells out voltage levels 
+connector type pinouts signal protocols connector 
+ db ibm has set alternative standard db primary
+signals transmit data td recieve data rd signal ground sg
+ other signals provide control between dte dce
+ example dte announces powered up ready participate
+ communications via data terminal ready dtr signal dtr 
+output dte input dce similarly dce announces 
+ ready participate communications via data set ready dsr
+signal dsr input dte output dce ok thats
+five signals only four more interest request send rts
+signal output from dte input dce used
+ ask dce permission send data dce agrees sends ok
+via clear send cts signal completeness cts input
+ dte output from dce other two signals interest
+ ring indicator ri data carrier detect dcd both inputs
+ dte outputs from dce ri just what you would expect 
+ signal dte saying someone attempting establish connection
+ dce rather specific modem telephone line setup
+dcd way dce announce connection has been established
+ie local dce talking some remote dce thats oh
+ many other rs signals defined obsolete i have
+explained nine signals pc pinouts follows
+
+name db db
+ sg 
+ td 
+ rd 
+dtr 
+dsr 
+dcd 
+rts 
+cts 
+ ri 
+
+now address your problem hand when you connect pc pc dte
+ dte dce pair middle therefore rs
+signal definitions dont work out quite right dce assert
+ cts dsr dcd ri so common thing do use 
+signals all also forget about dtr rts outputs well 
+ done you simply make null modem cable passes through sg
+ crosses td rd ie pin one end connects pin other
+end etc problem solution pc wants send
+data has way knowing other pc ready would have just
+send data hope got through therefore better null modem would
+include dtrdsr pair crossed particular point confusion 
+software area just because you run wires does mean soft
+ware use them you using builtin bios control 
+serial port bios dictates what wires you need how 
+ used you have comm package brooklyn bridge lap
+link telix those packages dictate cabling requirements 
+only thing you can guess reliably sg td rd dtrdsr also
+fairly common one more issue needs addressed here 
+ flow control rs scenerio dces responsible 
+flow control assumed dce couldnt possible overrun 
+dte i mean long dte has its dtr line asserted 
+dce send data without requesting permission first note contrast
+ other direction data flow dte must request permission 
+asserting rts line must wait cts signal before can
+send now dte dte scenerio question do you need flow
+control answser usually how nonbinary communications
+one common technique xon xoff which implemented software 
+wires dedicated flow control td rd carry xon xoff
+commands type flow control can used addition hardware
+flow control problem you cant send binary data because
+your data might include xon xoff codes cause erroneous conrol
+signals work around have software insert extract escape
+codes hardware flow control prefered problem hard
+ware flow control standard lots ways 
+do i bet have all been tried one cornerstone all methods
+ use rtscts one direction beyond anything fair
+game again you must look you comm package cabling requirements
+ i bet youll find one cable wired properly could work 
+all packages long same vintage way
+i am familiar one package uses rtscts dtrdsr flow control
+ rts request send dtr ready recieve cts 
+clear send dsr request recieve does mean 
+differnt cable just software clincher all cabling
+stuff common have uart directly controlled cts
+signal which means cts must present even you support
+ing software cases you find cables short 
+rts cts same end perhaps dtr cts other
+possible shorting might done just because software expects certain
+signals you dont have dont feel like providing because would
+mean additional wires specifically i am talking about dsr shorting
+ dtr dsr good idea general you may find cables like
+ bad idea because defeats whole purpose one more
+gotcha signal dcd some software including pc bios expects 
+see dcd before work signal sometimes gets shorted 
+dtr my favorite null modem has rts cts shorted each end 
+ rts also connected through other end connected dcd 
+ course dtrdsr crossed tdrd course sg must
+pass through null modem works most software flow control
+ any can use rtsdcd dtrdsr your comm package does 
+specify cable required pc pc connection i suggest you use
+ one
+
+ td rd
+ rd td
+ dtr dsr
+ dsr dtr
+ dcd rts
+ rts dcd 
+ cts cts
+
+
+gordon lang

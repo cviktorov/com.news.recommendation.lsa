@@ -1,0 +1,40 @@
+article aprnewscsbrandeisedu 
+ wbarnessuranet bill barnes writes
+
+has anyone successfully put both scsi ide hard drives
+ same system
+
+i would like know well since i just bought mb seagate ide
+drive want add my computer fouryearold gateway
+ which currently has mb seagate scsi drive scsi
+controller docs told me specify cmos
+setup ie both hard drive settings listed installed
+ apparently scsi controller works its wonders i wondering 
+ problem also i remember how when i helped my cousin
+install his second ide drive we had define masterslave
+relationship them do i need do something similar here
+
+i am particularly interested having scsi boot drive
+
+same here
+
+any help would appreciated since i intend install drive
+asap id like know what do what do before i start
+thanks
+
+i have been using both ide mfm scsi drives years i have 
+ide scsi one system other ide scsi disk 
+ scsi cdrom i currently using always scsi card i also have
+ future domain western digital scsi card i work adaptic 
+before i recall all cards can support boot floppy drive
+however use other controller ide mfm boot drive has 
+ ide mfm you can boot from scsi you have other 
+controller system you guys only have drives ide scsi
+just set up ide your cmos setup make sure you can boot from 
+ set up scsi controller irq dma etc set scsi drive 
+id just plug play all cards i seen so far only you 
+have more than drives you need driver third drive so
+ you have more question email me i try answer 
+good luck
+
+william

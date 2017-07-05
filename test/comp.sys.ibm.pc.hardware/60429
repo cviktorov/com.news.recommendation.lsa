@@ -1,0 +1,33 @@
+article aprjulianuwoca wlsmithvalveheartrriuwoca wayne smith writes
+
+ article wayneuvamtowerspacecoastorg wayneamtowerspacecoastorgxnewssoftware grn f mike schwartz michael b smith writes
+
+ i still want know why intrinsically better
+ than ide isa bus when comes multitasking oss when
+ managing data from single scsi hard drive
+ 
+ scsi controller transfers data dma allows cpu request data
+ from hard drive continue working while controller gets data
+ moves memory 
+
+ ide also uses dma techniques i believe floppy controller also uses dma
+ most ad boards also use dma dma big deal has nothing 
+ do directly scsi
+
+ide does do dma because its like te pc hard disk
+interface controller moves sector some buffer memory 
+controller card cpu moves data from buffer main
+memory where its needed ide doesnt work way its 
+compatible
+
+heck ide used dma youd hear all kinds complaints about
+isa bus systems more than m ram working ide
+drives m dma addressing limit isa bus ide
+did dma would trouble
+
+btw dmaenabling signals ide cable spec 
+last report i heard never implemented because 
+would require different kind ide adapter different drivers
+ 
+richard krehbiel richkgrebyncom
+os do me until amigados comes along

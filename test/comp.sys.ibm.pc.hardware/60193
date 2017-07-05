@@ -1,0 +1,53 @@
+article cfuupxxaustinibmcom guydaustinibmcom guy dawson writes
+
+ article lhdsylahabrachevroncom jjctclhdsylahabrachevroncom james c tsiao writes
+ article aprfctunlpt fcmdianafctunlpt fernando correia martins mei writes
+ spectre spectrenmtedu wrote
+ when i look magazine ad says
+deleted
+ what exactly do numbers mean ie which mb ns
+ 
+ numbers refers nanoseconds could someone explain
+ exactly what numbers means time spent bettwen processors request
+ answer retrieved case reading 
+ 
+ means time required memory refresh ie x
+ needs ns before ready read again
+
+nope its time taken read data from memory its read time
+ memory still have refreshed whole phase called
+ cycle cycle time being about twice access time
+
+im sorry im misunderstanding your post dram does have 
+ refreshed each access cycle so cycle time does have 
+twice access time because refresh phase
+
+ access time usually means delay time from falling edge raw
+address strobe ras data bus driven
+
+dram access cycle timing chart can roughly shown following some
+signals intentionally omitted
+
+addr racaraca raraw address cacolumn address
+ras high low floating
+cas driven either h l
+data validvalid
+ 
+ 
+ cycle time
+ access time ras access time
+
+yes cycle time more than twice access time 
+because refresh phase refresh can done either 
+trailing phase normal access cycle individual cycle
+
+
+other stuff deleted
+
+
+ken nakata
+ 
+ i apologize incorrect rude andor impolite expressions 
+ mail post intended please consider english 
+second language me i dont have full understanding certain words
+ each nuance phrase thank you ken nakata cis student njit

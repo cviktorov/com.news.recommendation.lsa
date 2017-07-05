@@ -1,0 +1,89 @@
+i write
+i recently got zyxel ue modem its great im still having
+some problems figuring out what strings use what applications
+i basically need strings zterm firstclass client telefinder
+client ive been able get firstclass zterm working using 
+another modems settings firstclass copying them zterm
+however still has problems zterm example list error
+ first time i try dialing after starting problem i cancel 
+try again works fine telefinder even worse i cant get 
+even wake up modem so anyone uses zyxel any 
+programs id greatly appreciate you sending me setup strings you use
+thanks advance
+ 
+yoshiocsuclaedu writes
+ zterm i initially did following
+atz
+atd
+atw
+ i set my init string atz
+thats 
+ 
+rsmithpearltuftsedu rod smith writes
+i cant help you firstclass telefinder ive been using zterm
+ 
+zyxel close two weeks now heres what i did
+
+once zterm set hardware handshaking bps rate 
+youve
+probably already done i typed
+
+atd
+atw
+
+ first line sets modem ignore dtr line necessary 
+hardware
+handshaking most though all mac hardware handshaking cables
+
+second stores setting nonvolatile memory modem so its 
+default when modem starts modem preferences dialog i have 
+modem initialization string set atzm which just insures 
+stored setting used useful starting zterm after using something like
+
+fax software macwoof which change settings other ways 
+alternatively you could leave factory default way just
+set
+ zterm initialization string atdm which would accomplish 
+same
+thing modem always before you start zterm other
+programs
+dont modify settings atzdm would work even other
+programs
+modify modems settings i do way i do because i sometimes
+forget
+ turn modem before launching zterm way im assured 
+having
+ correct dtr handling when modems powered up
+ 
+after comparing above strings my commands reference guide i
+came up 
+atzlnxdsm
+ entered initialize box modem preferences zterm
+quick summary each commmand
+z reset modem user profile 
+l speaker volume fairly quiet
+n ring volume fairly quiet
+x display connect info according setting see manual
+d assume dtr computer always 
+s dial speed fast zyxel can handle
+
+ firstclass i used same string addition s right
+before s command setup box disables autoanswer 
+function modem firstclass i based my modem setting supra
+fax just changed above mentioned string
+
+ telefinder i based my setting zoom v hh setting i changed
+ modem initialization string same one i used firstclass 
+everything seems work fine
+
+sorry took so long get summary out someone wants forward
+ infomacreports directory sumexaim might save other
+newbie zyxel users like myself trouble setting up strings 
+also save net some redundant messages anyone else has something
+ add feel free
+
+marcus
+mlobbiaucsdedu
+ 
+ marcus lobbia 
+ mlobbiasdccucsdedu

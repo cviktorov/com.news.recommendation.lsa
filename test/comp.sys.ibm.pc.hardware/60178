@@ -1,0 +1,54 @@
+article qkkvinnndkdnsnmsuedu bgrubbdantenmsuedu grubb writes
+point view why does scsi have advantage when comes multi
+tasking data data could anywhere drive can
+scsi find faster can get off drive computer
+faster does have better cache system i thought scsi good 
+managing data bus when multiple devices attached we 
+only talking about single drive explain why scsi inherently
+faster managing data from hard drive
+
+ide integrated device electronics 
+ currently most common standard mainly used medium sized 
+ drives can have more than one hard drive asynchronous transfer mbs max
+
+why dont you start specsheet isa bus first
+you can quote scsi specs till youre blue face 
+exceed isa bus capability whats point
+
+who says ide limited megssec what about vlbide does anyone
+know how perform
+
+so its lowest setting scsi interface asynchronous scsi mode averages 
+ through put maximum ide asynchronous mode full scsi mode
+ blows poor ide out window down street garbage can
+
+ implimented what system 
+
+ problem becomes can drive mechanisim keep up those through put
+rates where bottleneck cost scsi comes from 
+ interface itself more more from drive mechanisims use 
+scsi through put 
+
+given original question scsi used only single hard drive
+controller necessary get scsi drive do
+ least maybe megssec scsi choice make any sence
+what does meg megssec scsi drive cost
+
+ cost scsi interface self fulliling
+prophisy few people buy scsi because so expencive pc which
+ turn convices makes mass producing scsi which would reduce its
+cost unwarented so scsi expencive effect 
+rule scale more items sold less each item has bare brunt
+ cost manufacture so less each item has cost
+
+ original cga cart back i think original ega card
+ pga scsi has stood relatively alone coming down
+ price mainly because were talking about pcs suns sparc
+ sgi name your favorite unix workstation after millions
+ pc buying decisions over years scsi has had plenty time 
+come down price
+
+i wont argue scsi standard makes good well implimented
+data highway i still want know why intrinsically better
+than ide isa bus when comes multitasking oss when
+managing data from single scsi hard drive

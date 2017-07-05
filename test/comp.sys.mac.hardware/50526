@@ -1,0 +1,42 @@
+i want achieve overall throughput rate around megabytes sec
+ very large data transfers around mb
+
+i have quadra 
+i have nubus network card can pump data mac memory mbs
+ using blockmode transfers
+i have highspeed disk array asynchronous pb calls can
+ achieve mbs
+
+lets say all transfers go from disk buffer network card
+
+ enough first transfer all data from disk buffer
+ transfer all data from buffer card mbs mbs
+result overall mbs too slow
+
+so i tried following scheme nmegabyte transfer 
+
+step load st mb from disk buffer
+step asynch send st mb out card load nd mb from disk buffer
+step asynch send nd mb out card load rd mb from disk buffer
+ 
+step n asynch send n mb out card load nth mb from disk buffer
+step n send nth mb out card
+
+even though code apparently does execute card transfer asynchronously
+ card does use mac cpu all using buffer tho
+each steps through n take long two transfers were
+executed one after another so improvement rate
+
+why
+
+ mac ram dualport so nubus card disk driver can both
+access data same time
+ problem two devices card disk driver both have use
+ same bus mac ram
+
+ anything i can do
+
+david
+
+ david blume i get tired thinking all things i 
+ dcbwdlwdlloralcom dont want do bukowski barfly

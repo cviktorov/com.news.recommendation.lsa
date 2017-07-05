@@ -1,0 +1,1036 @@
+archivename macintoshgeneralfaq
+version 
+lastmodified april 
+
+copyright elliotte harold
+
+
+changes
+
+ where can i ftp macintosh software
+
+i added ftp site anlanlfr
+
+
+ what bin hqx cpt image etc
+
+ disk doubler decode packit archives binhex 
+ decode macbinary files stuffit files 
+ last version erroneously indicated
+ 
+ i added question 
+ 
+ how can i get binhex stuffit etc from pc
+
+ 
+
+
+ compsysmacfaq
+ part introduction macintosh newsgroups
+
+
+i introduction
+ how do i use document
+ what other information available
+ which newsgroup should i post 
+ someone just asked why system taking up sixteen 
+ megabytes iicx shouldnt i display my knowledge 
+ world posting seventeenth response 
+ question
+ii ftp
+ where can i ftp macintosh software
+ can i get shareware email
+ where can i find application x
+ can someone mail me application x
+ what bin hqx cpt image etc
+ how can i get binhex stuffit etc
+ how can i get binhex stuffit etc from pc
+iii troubleshooting what do when things go wrong
+ identify problem
+ read read me file
+ check viruses
+ reinstall application all its support files
+ reinstall system software
+ isolate problem
+ contact technical support
+iv preventive maintenance
+ trash unneeded files
+ reevaluate your extensions
+ rebuild desktop
+ zap pram reset clock
+ resize system heap
+ reinstall system software
+ disk utilities
+ backing up 
+ disk defragmentation
+ reformatting partitioning your hard disk
+
+other faq lists currently available
+
+b compsysmacsystem
+
+i memory
+ why my system using so much memory
+ what mode bit enabler do i need them
+ cache carry how much memory should i allot my cache
+ii system software
+ why does apple charge system 
+ what does system give me my system doesnt
+ where can i get system 
+ how can i use system system only mac 
+ nonus scripts systems
+ what system tuneup do i need 
+ why do my das disappear when i turn multifinder
+ do i need system 
+ how can i get system k disks
+iii hard disks filesharing file system
+ help my folder disappeared
+ why cant i throw folder away
+ why cant i share my removable drive
+ why cant i eject syquest cartridge cdrom etc
+ why cant i rename my hard disk
+iv miscellaneous
+ what does system error xxx mean
+ what type error
+ what arose
+ easy access one answer many questions
+
+
+c compsysmacmisc
+
+i viruses
+ help i have virus
+ reporting new viruses
+ii printing postscript
+ how do i make postscript file
+ how do i print postscript file
+ why wont my postscript file print my mainframes printer
+ why my postscript files so big
+ how can i print postscript nonpostscript printer
+ how do i make my imagewriter ii print color
+ why doesnt printmonitor work imagewriter
+ why did my document change when i printed 
+ how can i preview postscript file
+ how do i edit postscript file
+iii dos mac
+ how can i move files between mac pc
+ how can i translate files dos format
+ should i buy softpc real pc
+iv security
+ how can i prevent users from changing contents folder
+ how can i password protect my mac
+v particular place go miscellaneous miscellanea
+ any good books about mac
+ how do i take picture screen
+ how do i use picture my desktop
+ can i replace welcome macintosh box picture
+ what autodoubler spacesaver more disk space safe
+ how do compare timestwo stacker edisk
+ where did my icons go
+ where can i find user group
+
+ work copyright elliotte m harold permission
+ hereby granted distribute unmodified document provided
+ fee excess normal online charges required 
+ distribution portions document may extracted 
+ quoted free charge without necessity citation normal
+ online communication provided only said quotes 
+ represented correspondents original work permission 
+ quotation document printed material edited online
+ communication infomac digest tidbits given
+ subject normal citation procedures ie you have say where
+ you got 
+ 
+ disclaimer i do my best ensure information contained 
+ document current accurate i can accept 
+ responsibility actions resulting from information contained
+ herein document provided warranty 
+ any kind corrections suggestions should addressed 
+ erhteslanjitedu 
+ 
+ apple macintosh laserwriter imagewriter finder hypercard 
+ multifinder registered trademarks powerbook trademark
+ apple computer inc linotronic registered trademark 
+ linotypehell ag inc postscript registered trademark 
+ illustrator photoshop trademarks adobe systems inc 
+ microsoft registered trademark microsoft corporation 
+ pagemaker registered trademark aldus corp autodoubler 
+ diskdoubler trademarks fifth generation systems inc 
+ stuffit stuffit deluxe trademarks raymond lau 
+ aladdin systems inc stuffit spacesaver trademark aladdin
+ systems inc more disk space trademark alysis software
+ corporation timestwo trademark golden triangle computers
+ inc unix registered trademark att all other tradenames
+ trademarks respective manufacturers
+ 
+ first part faq second part 
+ posted compsysmacsystem features many questions about
+ system software third part posted every two weeks 
+ compsysmacmisc tables contents those two pieces 
+ included above please familiarize yourself all three
+ sections document before posting 
+ 
+ all pieces available anonymous ftp from
+ rtfmmitedu directory 
+ pubusenetnewsanswersmacintosh except introductory
+ faq which appears multiple newsgroups stored 
+ generalfaqz name each file has format last
+ part group name followed faqz eg faq 
+ compsysmacsystem stored systemfaqz faq 
+ compsysmacmisc stored miscfaqz rtfm stores files 
+ compressed z binary files you leave off z end
+ file name when getting file rtfm automatically 
+ decompress file before sending you you can also have 
+ files mailed you sending email message 
+ mailserverrtfmmitedu line send
+ pubusenetnewsanswersmacintoshname body text where
+ name name file you want specified above eg
+ generalfaq you can also send server message 
+ subject help more detailed instructions 
+
+ 
+
+ 
+ i have question 
+ 
+ 
+ congratulations youve come right place usenet 
+ wonderful resource information ranging from basic questions
+ how do i lock floppy disk queries would make steve
+ jobs himself run screaming from room terror i used
+ resedit remove resources init wdef nvir from my
+ system file used hex editor add code string ab 
+ patch sfgetfile routine so standard file dialog box
+ would nice shade mauve everything worked fine until i
+ installed supercdevblaster now when i use aldus driver 
+ print from pagemaker d linotronic my system hangs 
+ ps im running system powerbook 
+ 
+ since macintosh newsgroups medium high volume we
+ ask you first peruse faq list including least 
+ table contents other pieces check any other
+ relevant online resources listed below question especially
+ faq lists other macintosh newsgroups rtfm read
+ friendly manual before posting your question we realize 
+ you personally incensed system taking up fourteen
+ your newlyinstalled twenty megs ram question has
+ already made its way around world three hundred times before
+ its developing tired feet finally before posting any
+ newsgroup macintosh otherwise please familiarize yourself
+ basic etiquette usenet described newsgroup
+ newsannouncenewusers
+
+
+ how do i use document where can i get 
+ 
+ compsysmacfaq currently divided multiple pieces
+ general introduction which youre reading now specific lists
+ newsgroups compsysmacsystem compsysmacmisc faq
+ lists compsysmacwanted compsysmacapps 
+ compsysmachardware development when ready each part
+ available its respective newsgroup all pieces 
+ available via anonymous ftp from rtfmmitedu 
+ pubusenetnewsanswersmacintosh directory except 
+ document itself which named generalfaqz pieces named
+ per last part newsgroup cover followed 
+ faq eg systemfaqz miscfaqz z means file 
+ stored compressed so youll need ftp binary mode use
+ either maccompress stuffit deluxe unix uncompress command 
+ decompress however you leave off z extension when
+ you get file rtfm automatically decompress file
+ before sending you 
+ 
+ introductory document posted all concerned
+ newsgroups tables contents each specific faq
+ lists beginning file so you should able 
+ get least some idea whether your question answered anywhere
+ else faq even you dont have other parts hand 
+ its always obvious especially newcomers where 
+ particular question comment should posted please
+ familiarize yourself faq lists all major macintosh
+ newsgroups before posting any them which questions appear
+ which faqs can serve basic guide what posts belong
+ where 
+ 
+ jump particular question search 
+ sectionnumberquestionnumber enclosed parentheses 
+ example find where can i ftp macintosh software search 
+ string jump section instead question
+ use zero question number
+
+
+ what other information available 
+
+ compsysmacfaq provides short answers number 
+ frequently asked questions appropriate usenet newsgroup
+ compsysmacmisc compsysmacsystem four other files 
+ worthy particular note daryl spitzer maintains faq list
+ covering macintosh programming newsgroup
+ compsysmacprogrammer its posted group weekly 
+ available anonymous ftp from ftpcsuoregon 
+ pubmac eric rosen maintains frequently asked questions list 
+ compsysmaccomm available newsgroup from
+ rascalicsutexasedu macfaq where file youre reading now
+ also irregularly archived list answers many frequently
+ asked questions about networking unix mac
+ telecommunications foreign file formats norm walsh has
+ compiled excellent faq compfonts answers lot 
+ questions about various kinds fonts crossplatform
+ conversion printing its available compfonts ftp
+ from ibiscsumassedu pubnormcompfontsfaq finally jim
+ jagielski maintains faq compunixaux covering apples unix
+ environment aux its posted every weeks compunixaux
+ newsanswers its available anonymous ftp 
+ jaguboxgsfcnasagov
+
+
+ which newsgroup should i post 
+ 
+ stupid questions misplaced ones 
+ you wouldnt ask your english teacher how do definite
+ integral ln x between zero one would you so dont ask
+ programmer newsgroup why your system so slow when microsoft
+ word background ignorance basic netiquette 
+ excuse you want people help you you need learn 
+ ways communicating 
+ 
+ posting questions proper newsgroup fill your
+ mailbox pearls wisdom maybe few rotten oysters too
+ posting wrong newsgroup often engenders thundering
+ silence instance most common glaring mispost one
+ seems incongruous dwellers macintosh regions 
+ usenet would purple elephant aleuts arctic asking 
+ question about networking anywhere except compsysmaccomm
+ normally produces useful responses posting same question
+ compsysmaccomm ensures your post read considered
+ dozens experienced network administrators few
+ network software designers
+ 
+ please post exactly one newsgroup do crosspost 
+ question isnt important enough you take extra
+ minute figure out where properly belongs its important
+ enough several thousand people spend time reading 
+ same reason compsysmacmisc should used 
+ catchall newsgroup
+ 
+ breakdown questions between different newsgroups 
+ document can also serve reasonable guide what belongs
+ where specifically questions about productivity applications
+ software you bought your macintosh run software you bought
+ make your macintosh run better should go compsysmacapps
+ unless application covered more specific newsgroup 
+ communications programs games hypercard compilers databases
+ all have more topical compsysmac newsgroups post questions
+ about noncommunications hardware including questions about what
+ software necessary make particular hardware work 
+ compsysmachardware questions about macos system software
+ belong compsysmacsystem questions about utilities 
+ extensions normally belong compsysmacmisc questions about
+ aux go compunixaux detailed questions about appletalk
+ belong compprotocolsappletalk
+ 
+ direct questions about hypercard compsysmachypercard 
+ nonhypercard programming questions questions about development
+ environments should go compsysmacprogrammer resedit
+ questions may posted either compsysmacmisc
+ compsysmacsystem compsysmacprogrammer generally 
+ netters who inhabit darker recesses compsysmacprogrammer
+ considerably more practiced art resource hacking 
+ 
+ general exception above rules any very
+ technical question about application actually begins 
+ delve hows program well whats recent
+ example how does writenow which written entirely assembly
+ compare other word processors written high level languages
+ might better addressed programmer newsgroup
+ 
+ sale want buy posts should go 
+ compsysmacwanted miscforsalecomputersmac only we
+ understand youre desperate sell your upgraded k mac 
+ get powerbook trust me anyone who wants 
+ buy reading compsysmacwanted political 
+ religious questions mac better than windows 
+ too too hey how bout amiga what about 
+ too belong compsysmacadvocacy anything 
+ specifically mentioned above probably belongs compsysmacmisc
+ 
+ finally dont so provincial consider only 
+ compsysmac newsgroups appropriate forums your questions 
+ many questions about modems compsysmaccomm much more
+ thoroughly discussed compdcommodems questions about mac midi
+ often better handled compmusic even though its 
+ macintosh specific newsgroup shop around usenets big place
+ everything relevant macintosh happens 
+ compsysmac
+
+
+ someone just asked why system taking up sixteen 
+ twenty megabytes ram shouldnt i put my brilliance 
+ wit display world posting seventeenth response
+
+ frequent answers just boring uninteresting 
+ frequent questions unless you really have something new add 
+ traditional answers recent discovery fonts 
+ system could eat memory private email much better medium
+ answering common questions like one
+ 
+ you might want add mention faq your email
+ response polite suggestion your correspondent read 
+ before posting future questions i do read all newsgroups
+ covered here have written small script microphone ii 
+ lets me send pwfaqs people frequently asked questions 
+ section document answers question just 
+ click button so please dont feel obligated respond 
+ someone who cares so little about answer question 
+ cant troubled read faq list get 
+
+ 
+
+ 
+ ftp 
+ 
+
+ where can i ftp mac software 
+
+ three major north american internet archives shareware
+ freeware demo software sumexaimstanfordedu 
+ macarchiveumichedu wuarchivewustledu
+ which mirrors other two sites several
+ others wuarchive often holds files after other sites remove
+ them space concerns still has files were deleted from
+ formerly important site rascalicsutexasedu rascal 
+ notable storing its files macbinary format rather than 
+ less efficient binhex format common other archives unless
+ otherwise noted shareware freeware mentioned document
+ should available above sites
+ 
+ keep traffic internet manageable scandinavians 
+ should try connecting ftpfunetfi ftplthse
+ sicsse instead those 
+ uk should look first srcdocicacuk 
+ continental europeans can try nicswitchch 
+ ezinfoethzch anlanlfr 
+ australian users should try find what want archieau
+ which mirrors infomac macarchive japanese
+ users find sumex mirrored ftputokyoacjp
+ 
+
+ fourth very important site ftpapplecom 
+ apples semiofficial repository system software
+ developer tools source code technical notes other things
+ come more less straight from apples mouth some material
+ site may distributed outside us other
+ sites dont have official license distribute apple
+ system software please read various readme documents
+ available ftpapplecom detailed info youre
+ connecting from outside us you wish redistribute
+ material you find here
+
+
+ can i get shareware email 
+
+ infomac archives sumexaim available email from
+ listservricevmbitnet alternately listservricevmriceedu 
+ listserver responds commands macarch help macarch
+ index macarch get filename mac archive files available
+ from macmacarchiveumichedu send message containing 
+ words help index quotes first two lines your
+ message instructions getting started list files
+ you may request you can retrieve files from other sites using
+ server ftpmaildecwrldeccom details send 
+ message just text help quotes
+
+
+ where can i find application x 
+
+ you cant find what youre looking one above
+ sites try telnetting your nearest archie server sending 
+ email message addressed archie subject help 
+ archie servers located archierutgersedu 
+ america archiemcgillca original archie server
+ canada archieau australia archiefunetfi
+ scandinavia archiedocicacuk 
+ uk continent sites index tens 
+ thousands files available anonymous ftp login archie
+ password needed type prog filename find what
+ youre looking type help more detailed instructions 
+ instance you would type prog disinfectant search 
+ convenient ftp site disinfectant initial search fails
+ turn up file you want try variations substrings 
+ name instance you didnt find disinfectant prog
+ disinfectant you might try prog disi instead substring
+ searches often hide gold pile dross avoid many
+ erroneous matches add hqx end substring eg
+ prog disihqx most mac software available net ends 
+ hqx almost unix pc software does 
+
+ please check above archives archie personally before
+ asking where you can find particular piece shareware you
+ follow above advice you should almost never have ask 
+ net where find particular piece software
+
+
+ can someone mail me application x 
+
+ nor anyone mail you part file from
+ compbinariesmac corrupt missed your site please
+ refer first questions section find out about
+ anonymous ftp archie automatic email servers
+
+
+ what bin hqx cpt etc 
+
+ most files available ftp modified twice allow them 
+ more easily pass through foreign computer systems first theyre
+ compressed make them faster download theyre
+ translated either binhex hqx macbinary bin format
+ other computers can digest macintosh uses special
+ twofork filing system chokes most other computers binhex
+ files bit ascii text files while macbinary files pure
+ bit binary data must always transferred using binary
+ protocol
+ 
+ how file has been translated compressed 
+ transmission indicated its suffix normally file have
+ name something like filenamexxxyyy xxx indicates how 
+ compressed yyy indicates how translated use file
+ youve ftpd downloaded your mac youll need reverse 
+ process most files you get from net require twostep
+ decoding process first change binhex hqx macbinary
+ bin file doubleclickable macintosh file decompress
+ which programs decode which file types covered table
+ below also note most macintosh telecommunications programs
+ automatically convert macbinary files regular macintosh
+ files downloaded
+
+
+suffix sit cpt hqx bin pit z image dd zip uu tar 
+extractors
+
+stuffit x x x x x 
+compact pro x x 
+packit x
+uutool x 
+maccompress x 
+suntar x x x x 
+binhex x 
+binhex x 
+diskdoubler x x 
+unzip x 
+diskcopy x 
+macutil x x x x
+
+
+ few notes decompressors
+
+ stuffit family products use several different
+ compression schemes freeware stuffit expander unstuff
+ all them versions stuffit earlier than stuffit 
+ stuffit classic unstuffit stuffit deluxe 
+ unstuff increasing number files stuffed stuffit 
+ you need get more recent version stuffit stuffit
+ expander 
+ 
+ stuffit lite deluxe consistently makes smaller
+ archives than any other macintosh compression utility allow
+ maximum space files various ftp sites keep
+ netbandwidth down please compress all files you send anonymous
+ ftp sites stuffit 
+ 
+ uutool maccompress suntar handle popular unix
+ formats uuencode uu compress z tar tar
+ respectively unix versions often more robust than mac
+ products so use them instead when thats option translators
+ allow stuffit lite expand uuencoded tar files also
+ available anonymous ftp 
+ 
+ macutil dik winters package unix utilities 
+ decompress debinhex files workstation before downloading
+ them mac since unix stores files differently than does 
+ mac macutil creates macbinary bin files which should 
+ automatically converted download cant decompress
+ everything particular cant decompress new stuffit 
+ archives however you need only one two files out 
+ archivefor instance you want read readme find out 
+ program does what you need do before you download all 
+ itmacutil indispensable can found sumexaim 
+ infomacunix directory
+
+ few notes compression formats
+
+ bin macbinary files always use binary file
+ transfer protocol when transferring them never ascii text 
+ most files net stored hqx instead only rascal
+ stores most its files bin format most communications
+ programs zterm mackermit capable translating
+ macbinary files fly download know advance
+ theyll downloading macbinary files
+ 
+ image format normally used only system software
+ so online users can download files can easily 
+ converted exact copies installer floppies instead 
+ using diskcopy restore images floppies you can use steve
+ christensens freeware utility mountimage treat images 
+ your hard disk actual floppies inserted floppy drive 
+ mountimage has reputation being buggy so you should have
+ some blank floppies copy diskcopy handy just case
+ 
+ sea x x sea files dont merit position above
+ table because theyre selfextracting may have been created
+ compact pro stuffit even diskdoubler all should 
+ capable decompressing themselves when doubleclicked some
+ unknown reason alysis has chosen use industry standard
+ designation selfextracting archives created 
+ payware products superdisk more disk space instead 
+ append either x x selfextracting archives
+
+
+ how can i get binhex stuffit etc 
+
+ far easiest way get programs ask human
+ being copy them onto floppy you youre 
+ university theres absolutely excuse finding someone 
+ give you copy youre anywhere less remote than mcmurdo
+ sound chances very good someone computer center
+ dealership user group can provide you copy stuffit 
+ once you have stuffit any version you dont need binhex
+ 
+ youre computer geek thought actually
+ asking living breathing human being instead computer 
+ terminal something turns you quivering mass 
+ protoplasmic jelly you can probably download working copy 
+ stuffit from local bulletin board system 
+ 
+ you have religious objections software gotten any 
+ means other than anonymous ftp i suppose ill mention 
+ you can fact ftp working copy stuffit though 
+ far hardest way get ftp wuarchivewustledu 
+ login type word binary hit return type cd
+ mirrorsrascalicsutexaseducompression hit return 
+ get stuffitexpanderseabin hit return course
+ its always possible time you read stuffit
+ expander have been updated name changed so 
+ fails look something similar youve ftpd straight onto
+ your mac you should now have selfextracting archive which 
+ produce working copy stuffit expander when doubleclicked 
+ youve ftpd your mainframe unix account first you still
+ need use modem program download your mac just make
+ sure mac receiving macbinary mode mainframe
+ sending binary mode you need more details last
+ step consult faq list compsysmaccomm manuals
+ both your mainframe macintosh telecommunications software
+ 
+ 
+ how can i get binhex stuffit etc from pc 
+
+ you cant absolutely way get executable
+ macintosh file from ftp site onto pc onto your mac
+ without some software obtained means other than anonymous ftp
+ you must beg borrow steal necessary software 
+ binhex stuffit lite from another person i realize may 
+ terrify those among you who havent left your parents basement 
+ since you got apple ii eventually youre going 
+ need link up some human being other than your mother 
+ though i suppose youre much nerd you could send 
+ your mother out get you while youre gathering
+ your nerves venture strange terrifying world 
+ daylight please dont bother net asking question
+ again simply way move executable macintosh
+ programs from pc other nonmacintosh computer onto 
+ mac without software bundled most macs
+
+
+
+
+troubleshooting what do before posting when things go wrong 
+ 
+
+ while various faq lists cover lot specific
+ problems far more problems arent covered here 
+ few basic techniques you should follow before asking
+ help you should probably also perform tenstep
+ preventative maintenance routine described section four
+ especially rebuilding desktop resizing system
+ heap following steps may may solve your
+ problem least make easier others 
+ recommend solutions you
+
+ identify problem 
+
+ microsoft word crashing doesnt say much what were you
+ doing when crashed can you repeat actions lead 
+ crash more information you provide about actions
+ preceding crash more likely someone can help you 
+ more precisely youve identified problem actions
+ preceding step easier tell 
+ following steps fix problem example sometimes
+ quarkxpress crashes coprocessor installed error 
+ nearly helpful quarkxpress crashes when i link two
+ text boxes master page when copies those text boxes already
+ contain text former leave you wondering whether bug
+ remains after given step latter lets you go right 
+ problem see its still 
+
+
+ read read me file 
+
+ many companies include list known incompatibilities 
+ bugs read me files often arent documented 
+ manual read any read me files see any problems sound
+ familiar
+
+
+ check viruses 
+
+ run disinfectant another antiviral across your disk virus
+ infections rarer than most people think do occur 
+ do cause all sorts weird problems when do
+
+
+ reinstall application all its support files 
+ 
+ half dozen reasons external magnetic fields
+ improperly written software alignment planets file
+ disk may contain data its supposed contain 
+ can cause all types unexplained unusual behavior restoring
+ from original masters normally fix 
+
+
+ reinstall system software 
+
+ bits even more likely get twiddled system file
+ than application effects can just disastrous 
+ see question detailed procedure performing clean
+ reinstall 
+ 
+ problem continues occur after youve taken 
+ steps chances youve found either conflict between your
+ application some other software genuine bug 
+ program so its time 
+
+
+ isolate problem 
+ 
+ you need find minimal system which problem
+ assert itself here basic steps isolating 
+ cause system application crash
+ 
+ arun only one application time occasionally applications do
+ conflict each other problem does manifest itself
+ without other applications running simultaneously you can begin
+ launching other applications until you find one causes 
+ crash
+ 
+ bif youre running system turn off multifinder youre
+ running system allot much memory application you 
+ can afford sometimes programs just need more memory especially 
+ when performing complicated operations
+ 
+ c youre running system turn off virtual memory bit
+ addressing theres still awful lot system hostile
+ software out including some from companies really 
+ have excuse can you say microsoft word boys girls 
+ i knew you could some software only expresses its 
+ incompatibilities when certain uncommon actions taken
+ 
+ dboot from virgin system floppy problem disappears
+ you likely have init conflict you need progressively remove
+ extensions until problem vanishes use little common sense
+ when choosing first extensions remove problem occurs
+ when you try open file remove any inits mess 
+ standard file open procedure super boomerang first 
+ problem remains after obvious candidates have been eliminated
+ either remove remaining extensions one time you have
+ lot them perform binary search removing half 
+ extensions time once problem disappears add half 
+ most recently removed set back continue until youve narrowed 
+ conflict down one extension when you think youve found 
+ offending init restart only init enabled just make 
+ sure alone indeed causing problem
+
+
+ contact technical support 
+
+ now you should have very good idea when where why
+ conflict occurs tech support number available 
+ software call youre lucky company have work
+ around fix available perhaps theyll least add 
+ bug database problems fixed next release
+
+ 
+
+ 
+ preventive maintenance 
+ 
+
+ you wouldnt drive your car miles without giving 
+ tuneup computer different regular tuneups avoid lot
+ problems although mac mechanics wholl happy 
+ charge you more equivalent oil change theres
+ reason you cant change yourself following ninestep
+ program should performed about every three months 
+
+
+ trash unneeded files 
+
+ many operations follow run faster more
+ smoothly more free disk space work so spend 
+ little time cleaning up your hard disk youre all like me
+ youll find several megabytes worth preferences files 
+ applications you longer have archives software youve
+ dearchived shareware you tried out didnt like announcements
+ events have come gone many other files you 
+ longer need youre running system you may also have several
+ more megabytes your trash can alone throw them away empty 
+ trash
+
+
+ rethink your extensions 
+
+ some macintoshes attract inits like new suit attracts rain 
+ seriously consider whether you actually need every extension 
+ your collection you dont use functionality 
+ extension least every fifth time you boot up youre probably
+ better off storing your system folder where only takes
+ up memory destabilizes your system slows down every startup 
+ instance you only read pc disks once month theres 
+ need keep accesspc loaded all time cutting back your
+ extension habit can really help avoid crashes 
+
+
+ rebuild desktop 
+
+ desktop filedatabase holds all information necessary
+ associate each file application created 
+ lets system know what application should launched when you
+ open given file what icons should display where 
+ depending its size each application has one more
+ representatives desktop file applications files
+ move off your hard disk desktop file can become
+ bloated corrupt think congress your mac 
+ every so often its necessary throw bums out start 
+ clean slate fortunately its easier rebuild desktop than
+ defeat incumbent 
+ 
+ one warning rebuilding desktop erase all comments
+ youve stored get info boxes under system maurice
+ volaskis freeware init commentkeeper retain those comments
+ across rebuild commentkeeper also works system only 
+ apples desktop manager extension also installed 
+ 
+ rebuild desktop restart your mac your
+ extensions finish loading depress command option keys 
+ youll presented dialog box asking you want rebuild
+ desktop warning you could take few minutes 
+ click ok take more than few minutes more files you
+ have longer take youre running system you may
+ want turn off multifinder before trying rebuild desktop
+ 
+ youre experiencing definite problems just doing
+ preventive maintenance you may want use fifth generations
+ freeware init desktop reset desktop reset completely deletes 
+ desktop file before rebuilding thus eliminating possibly
+ corrupt data structures 
+
+
+ zap pram reset clock 
+
+ all macs from original k thin mac quadra 
+ contain small amount battery powered ram hold certain
+ settings properly move cpu rather than disk
+ which disk boot from unfortunately parameter
+ ram can become corrupted cause unexplained crashes reset
+ under system hold down command option p r keys
+ while restarting your mac under system hold down command
+ option shift keys while selecting control panel from 
+ apple menu click yes when asked you want zap parameter
+ ram since youve erased almost all settings general
+ control panel you should now reset them whatever you want
+ 
+ one setting zapping pram does erase 
+ date time since internal clock macintosh 
+ notoriously inaccurate youll probably want take 
+ opportunity reset anyway
+
+
+ resize system heap 
+
+ even after rethinking extensions per step two most
+ people still have least half row icons march across 
+ bottom screen every time restart all 
+ extensions most applications too need space section 
+ memory called system heap system heap isnt big enough
+ comfortably accommodate all programs want piece 
+ all start playing king mountain system heap
+ knocking each other off get bigger pieces themselves 
+ trying climb back after get knocked off all 
+ fighting amongst programs severely degrades system performance
+ almost inevitably crashes mac
+ 
+ youre using system your macintosh automatically
+ resize system heap necessary youre running system 
+ its important set your system heap size large enough manage
+ all your extensions applications default size set
+ k way too small most macs any extensions all 
+ system heap size stored normally noneditable boot
+ blocks every system disk bill steinbergs freeware utility
+ bootman only lets you resize your system heap even checks
+ how much memory your heap already using so can tell how much
+ needs allocated youre running system get bootman
+ use amazed how infrequently your macintosh crashes
+
+
+ reinstall system software 
+
+ system files can become corrupt fragmented especially 
+ youve stored lots fonts desk accessories inside them 
+ merely updating system software often fix system file
+ corruption i recommend doing clean reinstall heres how
+
+ boot from installer floppy your system disks 
+ copy any nonstandard fonts desk accessories out 
+ your system file temporary suitcase
+ trash system file your hard disk also trash 
+ finder multifinder da handler all other standard apple 
+ extensions like control panel chooser all 
+ replaced new installation youre running 
+ installing system move everything extensions 
+ control panels preferences folders top level 
+ system folder
+ rename system folder any name other than system folder 
+ fine
+ doubleclick installer script your system disk 
+ choose customize select appropriate software your 
+ model mac printer you could do easy install instead 
+ only add lot extensions code you dont 
+ need waste your memory disk space
+ once installation finished move everything from 
+ temporary folder you created step new system 
+ folder youre asked you want replace anything you 
+ forgot take something out step youll need replace 
+ things individually until you find duplicate piece 
+ reinstall any fonts das you removed step 
+ reboot you should now have clean defragmented system file 
+ takes up less memory disk space much more stable 
+ system overall
+
+
+ disk utilities 
+
+ much like system files hard disks have data structures 
+ occasionally become corrupted affecting performance even
+ causing data loss apple includes disk first aid simple utility
+ detecting repairing hard disk problems its system
+ disks its also available anonymous ftp from ftpapplecom 
+ directory dtsmacsyssofthdsc even you have earlier 
+ version you should get latest version from ftpapplecom
+ run all your hard disks
+ 
+ several companies have released payware disk utilities 
+ detect repair considerably more problems than disk first aid
+ though interestingly none them detect repair everything
+ disk first aid does three most effective general
+ work central points mactools deluxe fifth generations
+ public utilites symantecs norton utilities macintosh
+ department work group should have all well
+ disk first aid since none them fix everything others do 
+ individuals mactools street about half price 
+ norton street public utilities street so features
+ ease use being roughly equal i recommend mactools
+ 
+ all products occasionally encounter problems 
+ cant fix when happens its time backup 
+ reformat 
+
+
+ backing up 
+
+ one part preventative maintenance should 
+ done lot more often than every three months simplest back
+ up merely copy all files your hard disk onto floppies
+ other removable media you keep your data files separate
+ from your application support files its easy only back
+ up those folders which change frequently nonetheless every three
+ months you should do complete backup your hard disk 
+ 
+ number programs available make backing up
+ easier apple included very basic full backup application 
+ system performas apple ships new apple backup
+ utility can backup entire disk just system folder
+ onto floppies previously mentioned norton utilities 
+ mac mactools deluxe include more powerful floppy backup
+ utilities incorporate compression incremental backups
+ 
+ finally youre lucky enough have tape drive network
+ server removable media device use backups you should
+ check out more powerful payware utilities redux street
+ doesnt support tape drives diskfit pro street 
+ freely available backup utilities other than old hd
+ backup from system 
+
+
+ disk defragmentation 
+
+ disks fill up gets harder harder find enough free
+ space same place write large files therefore 
+ operating system often split larger files pieces 
+ stored different places your hard disk files become more
+ more fragmented performance can degrade several
+ ways defragment hard disk
+ 
+ most tedious cheapest method backup all your
+ files erase hard disk you might well reformat while
+ youre see question restore all files
+ 
+ number payware utilities including norton utilities 
+ mac mac tools deluxe can defragment disk place ie
+ without erasing although ads all products brag
+ about safety once youve bought software opened 
+ shrinkwrap all warn you back up your disk before
+ defragmenting case something does go wrong 
+ freeware shareware disk defragmenters so please dont annoy 
+ net asking one 
+
+
+ reformat your hard disk 
+
+ just floppy disk needs initialized before use so 
+ hard disk must formatted before can hold data you dont
+ need reformat every three months when your system 
+ crashing matter what you try reformatting ultimate means
+ wiping slate clean reformatting your hard disk may even
+ gain you few extra megabytes space all hard disks 
+ created equal some can hold more data than others facilitate
+ mass production advertising without lot asterisks 
+ megabytes average formatted capacity your mileage may
+ vary apple often formats drives lowest common denominator
+ drive capacity when you reformat theres reason all 
+ reclaim whatever unused space apples left your disk
+ 
+ unlike floppies hard disks need special program 
+ initialize them most hard disks come formatting software 
+ apples disks system software ship hd sc setup minimal
+ disk formatter which format apple brand hard drives only 
+ most other manufacturers ship appropriate formatting software 
+ hard drives normally all you need reformat
+ your hard disk
+ 
+ number generalpurpose formatters also available
+ which go beyond bundled software include features like
+ encryption password protection multiple partitioning faster disk
+ access system compatibility even compression two 
+ best payware drive hard disk toolkit personal edition
+ street either while one two freeware
+ formatters available none likely superior ones
+ bundled your hard disk 
+ 
+ powerbook users should sure turn off sleep 
+ processor cycling before reformatting hard drives matter
+ what software use otherwise disk corruption crashes 
+ data losses very good possibility
+ 
+
+
+ elliotte rusty harold department mathematics
+ elharoshivanjitedu new jersey institute technology
+ erhteslanjitedu newark nj

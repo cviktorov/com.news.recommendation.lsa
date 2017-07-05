@@ -1,0 +1,60 @@
+article aproracleusoraclecom eboscousoraclecom eric bosco writes
+ 
+ i have sx computer mg seagate ide drive controler 
+ built motherboard i want add scsi drive quantum prodrive 
+ f mg formatted i have documentation all i need your 
+ help
+ 
+ i understand here process adding drive could you 
+ please tell me im right
+ 
+ buy scsi contoler which one i know adaptec good 
+ kind expensive any good boards region i want 
+ compatible os unix possible also i have seen 
+ net scsi scsi drives true does 
+ adapter need same drive what type drive 
+ quantum
+
+
+i have tried others i think adaptec best value money
+
+
+ connect drive adapter via scsi cable power cable
+ do i have worry about power supply i think i have watts 
+ all im powering two floppies seagate drive
+
+
+i dont think you can mix two types drive unless you have one 
+scsiide cards available you have turn your ide off
+
+
+ setup bios recognize drive second drive what type 
+ drive i dont have numbers drive
+
+
+instructions drive type included controller some may 
+ type matter what disk others may type i had one
+controller i had tell bios hard disk installed
+
+ 
+ format create partitions drive do i use format fdisk i 
+ think ide drives cant lowlevel formatted same 
+ scsi how exactly does fdisk work i have reduced msdos manual 
+ clone obliges mention fdisk ideally i would want 
+ drive partitioned two partitions d e how do i do 
+
+
+do low level format scsi unless you have scsi low level format program 
+first use fdisk set partitions use format
+
+
+ well seems all anythiing im forgetting 
+ any help really appreciated im lost
+ 
+ eric
+ 
+ eboscousoraclecom
+ 
+mark 
+
+markukacoxphyschem

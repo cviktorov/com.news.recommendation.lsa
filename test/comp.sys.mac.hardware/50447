@@ -1,0 +1,80 @@
+well here results mathematica test which i posted 
+ newsgroup test following command
+
+plotdxy
+x
+y
+xy
+xyplotpoints
+
+
+i just curious how fast plot command would executed 
+various macintosh machines well other personal computers 
+workstations results posted below
+
+machinesystemmath vers trialstime min
+
+pb 
+tuneupmb
+rammb 
+mathematica
+
+dec ultrix va 
+dec risc
+
+iisicachembfenh
+mhzmb ram
+mb math
+w 
+
+cmb ram
+
+qmbcache
+mb math
+
+sparcsunos
+stationmb ram
+
+sgi irisdr risc
+processor
+version
+
+sparcsunos 
+station
+
+iisi
+
+nextnextstep 
+cube based
+w coprocessor
+
+nextnextstep ave
+cubemhz
+ mb ram
+
+iisimbmb enha
+math
+w 
+
+nextmb ram 
+ mhz 
+workspace
+manager 
+
+funny how iisi running mhz slower than other equivalent
+machines lots slower fact perhaps version mathematica
+makes difference fact much ram allocated
+another interesting thing how fast sgi did wow 
+
+basically though i wouldnt draw any conclusions from data 
+seems mathematicas speed dependant lot variables i
+ just curious how different machines would measure up 
+
+well you have any questions i forgot something just drop me
+ line cmmilleriastateedu 
+
+chad
+
+ps spacing above table doesnt come out right your
+machine tell me ill mail you copy binhexed word
+ document

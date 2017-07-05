@@ -1,0 +1,28 @@
+tzssteinuwashingtonedu tim smith writes
+
+ attention mac quadra owners many storage industry experts have
+ concluded mac quadras suffer from timing irregularities deviating
+ from standard scsi specification results silent corruption
+ data when used some devices including ultramodern devices
+ although i name devices since fault 
+ example would sony inch mo without special maccompatible
+ firmware installed one solution sometimes disable blind writes
+
+ doesnt sound right me dont quadras use c so 
+mac has nothing do scsi timing thats all handled 
+chip about only timing could wrong apple programs 
+clock registers wrong however should only really hurt
+synchronous transfer which used mac scsi manager
+
+furthermore disabling blind writes should meaningless quadra
+ macs used which much lower level scsi chip 
+mac responsible handshake each byte transferred blind
+mode affected how mac handled handshake 
+handshake entirely handled chip
+
+ docs say its scsi manager bug changes things all
+ 
+ jim jagielski hes gonna stiff me so i say
+ jimjaguboxgsfcnasagov hey lama how about something
+ nasagsfc code you know effort
+ greenbelt md

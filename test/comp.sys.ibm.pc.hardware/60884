@@ -1,0 +1,88 @@
+thu apr gmt ross mitchell rmitchirusrriuwoca wrote
+
+ i want use proposed beast basically four things 
+
+ editing documents using wordperfect under dos
+
+ creating graphsanalyzing data using sigmaplot v under dos
+
+ editingplaying images using aldus photostyler running under 
+ windows images can large say k x k bitspixel
+
+ using pc xterminal running desqviewx sun pcnfs 
+ talking our network sparcstations where lot 
+ imagesdata come from most demanding tasks
+
+ ive read read read pc magazines performed benchmarks read newsgroup
+ decided nice system priceperformance would 
+
+ dx k cache isa vlb meg ram
+ ati graphics ultra pro meg ram local bus
+ monitor x ni
+ com etherlink iii bit
+ maxtor mb ide hard drive
+
+ however parts dont fit our local retailer apparently put one 
+ together only discover ati card wouldnt run mhz surprise
+ surprise actually after reading group im surprised even
+ have mhz local bus running
+
+ i have choice now between basically above system 
+ dx isa vlb dx eisa vlb thus
+ nonlocal bus version ati card which better keeping mind
+ im primarily interested last two tasks 
+
+having mind size images my opinion go vlb
+ has much more bandwith eisa which fact can utilized
+ craphics card i have made measures so someone else may
+share experience 
+
+also dx faster operations run off internal
+cache slightly slower off external about same off memory
+so my advice vlb
+
+ were quite happy ati card very fast once data gets 
+ slow repainting images under photostyler have moved off screen 
+ been uncovered 
+
+ doesnt seem enough raw cpu when running desqviewx its sluggish
+ running local window manager also many functions under photostyler take
+ long time even when images fit entirely ram
+
+ theres enough memory system desqviewx meg smartdrive
+ dont leave much room other apps photostyler page disk 
+ medium size images
+
+have you tried running photostyler without cache need have
+paging cache both well you might argue paging 
+cached my belief measurements apps left more
+memory manage better than smartdrvexesys
+
+ i have performed number benchmarks ethernet transfer rates 
+ machine sustains only ksec over ethernet while our sparcs sustain ksec 
+ same network going bit version smc card increases
+ transfer rates ksec still very slow especially when moving large 
+ images thing localbus ethernet card coming 
+ make difference im hoping so leaning towards dx choice 
+ above reason
+
+ bandwidth theoretical isa over mbs which far from
+mbs i tried my isa ide hard drive maxtor mb got 
+same results mbs regardless isa bus speed
+mhz so i guess just carddrivers combination 
+lousy
+
+ also dxs horizon what about dxs dxs 
+
+ rumors dx any most likely chip come
+out note ibm closest technology only
+sell whole motherboards so youll have upgrade mb
+
+ any information greatly appreciated
+
+just some view much figures
+
+
+penio penev x w internet penevveneziarockefelleredu
+
+disclaimer all oppinions mine

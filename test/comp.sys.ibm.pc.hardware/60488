@@ -1,0 +1,108 @@
+tdiptxt jeffrey e hundstad jgumvaxmankatomsusedu
+
+ switch settings trident c
+
+ 
+ 
+ 
+ xx 
+ xx 
+ 
+ xx j j 
+ xx 
+ 
+ 
+ 
+ vga graphics adapter layout dram
+
+ 
+ j 
+ 
+ 
+ 
+ 
+ j 
+ 
+ j 
+ 
+ 
+ vga graphics adapter layout dram
+
+ 
+ j 
+ 
+ 
+ 
+ 
+ j 
+ 
+ j 
+ j 
+ 
+ vga graphics adapter layout dram
+
+ dip switches
+ db connector analog monitors
+ db connector ttl monitors note 
+ jumers j j j j j layouts j layout 
+ video bios basic inputouput system
+ tvga chip vga graphics chip
+ edge connector ibm pcxt pcat compatible systems
+ video dram up mb
+ feature connector special applications
+ video dac
+ jumper blocks jp jp board only
+ note hardware option feature present all board versions
+
+switch settings switch dip box from figures
+
+switch scan rate
+ less than khz default
+ off khz
+
+switch fast slow address decode
+ off fast address decode default
+ slow address decode
+
+switch bit data path
+ off bit data path default
+ bit data path
+
+
+jumper settings
+
+j settings irq
+ 
+ xxx xxx
+ off def 
+
+j settings bus size detections
+ x
+ x x
+ x 
+autodetect standard interface
+def
+
+j settings dram configuration
+ 
+ 
+ 
+ 
+
+ two dram four dram eight dram
+
+j dram clock select
+ 
+ xxx xxx
+ mhz mhz
+two dram dram
+
+
+sw sw
+
+swich setings sw sw
+
+vga mode default 
+ega mode off 
+cga mode off
+mdahercules mode off off

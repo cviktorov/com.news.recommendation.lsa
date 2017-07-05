@@ -1,0 +1,106 @@
+hello all
+
+ few past days ive been fighting get my nec multisync d
+predecessor fg work properly internal video mac
+iivi
+
+ vgaadapter described dale adams posting about quadra
+video works only some minor interferences occur small enough 
+ prevent any action screen visible clear
+
+ because scanrates stuff d well enough emulating
+apple rgb i first made adapter got one fron local
+distributor nec
+ both adapters i can get picure which looks excellent most 
+ time every now 
+ radical changes screen opening palettes large windows
+etc major interferences sync picture either tilts
+sideways scrables up totally even when clear some
+spiky interferences horizontal line alignment when accessing
+pulldowns etc
+ selfmade adapter almost identical vga one only
+sense pins differ sometimes impossible even boot up 
+picture clear enough shut down from menu
+ adapter from nec everything well most time 
+sometimes picture tilts badly sideways sync completely
+lost nearly often selfmade one
+
+i know self made adapters can always interference 
+ one provided nec wheres source interference
+
+ill give you pinouts whole mess i hope you can
+ least someone please try figure out what could best pin
+assignment nec d
+i am going make completely new cable maximum shieldings 
+isolations soon someone figures out how pins should 
+arranged especially syncs groundings
+
+yes i have checked monitor defective works
+perfectly well all pc graphic adapters up x pixels 
+also atari hz monochrome which i am using now 
+
+here pinouts stuff
+
+ pin mini dsub nec d pin dsub mac least quadra
+
+ red video red gnd
+ green video red video
+ blue video composite sync
+ gnd sense 
+ gnd green video
+ red gnd green gnd
+ green gnd sense 
+ blue gnd nc
+ nc blue video
+ gnd sense 
+ gnd csync vsync gnd
+ nc vsync
+ hsync blue gnd
+ vsync hsync gnd
+ nc hsync
+shell gndshell gnd
+
+
+
+connection suggested apple vgasvga sense pins changed 
+emulate apple multisync my selfmade adapter
+
+multisync pin mini dsubmac pin dsub
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ sense grounded sync gnd
+
+
+connection measured from adapter make nec fgfg 
+emulate apple adapter provided nec representative
+
+nec mini mac 
+
+ 
+ 
+ 
+ shell gnd 
+ same above
+ same
+ same
+ same
+ same
+ same
+ 
+ connected 
+
+
+well i am waiting your solutions
+
+ thanks
+
+
+jartsu

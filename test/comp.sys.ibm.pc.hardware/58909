@@ -1,0 +1,53 @@
+please help you can following strange problem
+
+ maxtor drive my clone would from time 
+ time obvious reason spin down completely one can
+ tell sound simply refuse accessed dos
+ reacts error drive d cannot accessed 
+ something like unfortunately i cannot just reproduce
+ error sometimes occurs more often sometimes
+ less last time happened when i wanted 
+ demonstrate some software colleague
+ i would like know anybody has experienced similar
+ problems i dont like take thing dealer
+ only told theres nothing wrong i
+ checked other post group about maxtor 
+ i dont seem only one who has problems however
+ one describes same problem i also have 
+ different configuration
+
+ thanx advance any emailed help 
+ 
+ peter
+
+list equipment
+ computer mandax mainboard mb
+ adaptec scsi master
+ maxtor lxts scsiii hard drive
+ nec cdr cdrom reader problem remains cdrom removed
+ et vga card
+
+configsys
+ files
+ devicecdossetverexe
+ devicecwindowshimemsys
+ devicecsystemaspidossys
+ devicecsystemaswcdnecsys dneccd
+ doshigh
+ countrycdoscountrysys
+ devicecdosdisplaysys conega
+
+autoexebat
+ cwindowssmartdrivesys
+ pathcwindowscdos
+ set tempcdos
+ mode con codepage prepare cdosegacpi
+ mode con codepage select
+ keyb sgcdoskeyboardsys
+ csystemmscdex dneccd ld v
+
+
+ peter schneider englisches seminar 
+ email pschneidesunizhch universitaet zurich 
+ phone plattenstrasse 
+ fax ch zurichswitzerland

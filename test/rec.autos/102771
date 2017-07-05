@@ -1,0 +1,116 @@
+archivename recautospart
+
+new article february rpw
+
+
+many people want set up mailing lists favorite
+automotive topics rather fewer know how do article
+ provide essential information doing so standard
+unix systems shell script examples alias file setups
+ included which presently run sparc here balltowncmacom
+ number mailing lists note you do set up automotive
+mailing list please let me know request address so i can
+list montly recautos posting also inform keeper 
+usenet listoflists check newsanswers monthly posting
+
+first all get anywhere you need either sysadmin
+ have some measure assistance from your sysadmin also
+important you have reasonably good network connectivity seems
+like you get everything several days after anyone else you
+have trouble getting email through your network connectivity 
+probably good enough
+
+listserv
+
+ handy automated mailing list package named listserv which
+ available from several ftp servers network details 
+ installation operation listserv beyond scope 
+article anyone who considering running large mailing list should
+probably look listserv carefully
+
+ alias file
+
+ typical unix system file named usrlibaliases 
+whichever file server your mail host contains lines 
+
+foo bar baz bletch
+
+
+which means any email sent name foo host 
+redistributed users bar baz bletch thus simplest
+possible email list 
+
+myfavoritecar member member member myaddress
+myfavoritecarrequest myaddress
+
+ has couple problems most noticeable one being 
+you have superuser edit alias file however you can
+do following connivance your sysadmin
+
+myfavoritecar includehomemydirmiscautosmyfavoritecarlist
+myfavoritecarrequest myaddress
+
+where file specified list comma newline separated
+addresses file can list admins home directory
+owned list admin
+
+bounced mail
+
+ still has problem bounced mail usually gets distributed all 
+members list which generally considered somewhat irritating
+therefore way driving school mailing list set up
+ instructive thanks harpal chohan bmw list setup
+ way im sure where he got from
+
+
+schoolrequest welty
+schoolrebroadcast includehomenewweltymiscautosschoollist
+school usrlocaladmbinexplscript school
+ownerschool schoolrequest
+ownerschoolout schoolrequest
+
+
+heres what going here
+
+ owner request addresses intended traps bounced mail
+coming from network request address also serves point
+ contact administrative duties
+
+school what people send mail instead pointing addresses
+ points shell script which rewrites headers before resending
+ email schoolbroadcast which nobody except me knows name
+ name has been changed here protect my own sanity points 
+actual list members
+
+ shell script i use follows
+
+
+binsh
+cd tmp
+sed e replytod e senderd e from d 
+ echo replyto balltowncmacom 
+ echo errorsto requestballtowncmacom 
+ echo sender requestballtowncmacom 
+ cat 
+ usrlibsendmail om f requestballtowncmacom 
+ f mailing list rebroadcast
+exit 
+
+
+note script does know name list name
+ passed from outside so script may used multiple
+lists i run several out site
+ script excises replyto sender from lines from incoming
+message substitutes sender replyto adds errorsto
+ all email bounce messages end up being sent request
+ owner addresses header rewrite done
+
+ digested lists some digestification software around
+hopefully ill able provide more information future version
+ posting
+
+richard welty weltyballtowncmacom
+ 
+richard welty weltycabotballtowncmacom
+nothing good has ever been reported about full rotation 
+ race car about either its pitch roll axis carroll smith

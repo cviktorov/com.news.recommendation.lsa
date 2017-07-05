@@ -1,0 +1,44 @@
+hi
+
+i have few enquiries about pcs compatibles general some software
+others hardware orientated probably wrong newsgroup everyone 
+claims
+
+anyway
+
+ does any one happen have board jumper details trident 
+svga graphics card mb even what dip switches do end mine
+already works fine albeit slow after having blown up monitor i found 
+out which switch controlled interlacenon interlace facility 
+
+ im curious why dip switches card apparantly
+little use
+
+ secondly does anyone know why commodore had so crazed design
+ pc motherboard respect ram ie k 
+
+ can anyone supply pin details expansion ports pc bit
+ even sample circuit cause irq when button pressed
+yeah i know its piece cake im lazy 
+
+ software wise anyone care divulge some tips accessing expanded ram
+ pc from program written turbo c 
+
+ instance using farcoreleft coreleft return only memory available
+from base k regardless combinations emm etc etc
+what i want able use ram above beyond mb boundary
+
+im certain whether farmalloc new actually uses anyway ill 
+suspect 
+
+ also what half brained wit created dos so reentrant
+ follow does anyone have any comments about use dos calls
+ c from within dos interrupt ie changing stack size 
+ entry use two articles ive read subject have given 
+ conflicting views does anyone have any views writing direct 
+ screen memory terms portability
+
+many thanks
+gotta go bars closing soon 
+cheers
+ian

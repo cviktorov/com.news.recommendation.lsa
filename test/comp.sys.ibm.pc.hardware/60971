@@ -1,0 +1,52 @@
+pdbipljplnasagov paul bartholomew writes
+
+clip clip
+
+interesting would you care explain me how my soundblaster
+pro card my printer card sharing irq successfully i assure
+you both set irq i have problem my
+computer dtk ibm clone
+
+running msdos derivative os obviously please take note 
+following what exactly happens slightly simplified
+explanation
+
+technically irq line only means device printer
+adapter soundblaster modem hard disk signal cpu 
+somethings happening here please take note how cpu 
+programmed handle signal usually up operating system
+ msdos interrupt vector used store address 
+function handles each interrupt
+
+now basic dos doesnt care whether printer reports its ready
+ print some more stuff simply ignores interrupt when
+dos prints looks lpt buffer theres character 
+wait while check again theres copy new character 
+ lpt port since irq ignored printer interrupt its
+free use any other adapters case sb 
+
+ any multitasking otherwise advanced os kind printing
+approach just doesnt work more precisely wastes lot cpu
+cycles hence you cant share irq lpt sb youre
+running unix os whatnot
+
+another issue sb only digitized sound uses
+interrupts when sb plays plain music cpu simply tells what
+ play until told otherwise digitized sound interrupt 
+required notify cpu when output ends new data 
+needed
+
+you can however hook two more com ports one interrupt use
+them only one time because interrupt handling routine
+ same both ports can see from which port data came
+from course applies some other devices like lpt well
+
+remember greatly simplified parts i think gives 
+general picture correctly enough
+
+cheers
+
+ 
+ juha liukkonen aka jliukkoncchelsinkifi
+ university helsinki dept lost souls
+ trust me i know what im doing sledge hammer

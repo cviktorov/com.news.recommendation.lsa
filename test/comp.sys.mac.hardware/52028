@@ -1,0 +1,68 @@
+article ingemarisy ingemar ragnemalm ingemarisyliuse
+writes
+enter game developers sound driver current sound manager 
+inconveniently lame making games
+
+ sound driver pretty ok since its fast sound manager used 
+book useless disposing sound channels soon sound has
+completed
+ out question games smooth animation its too slow
+
+why would you dispose channel you going play more
+sounds soon you trying write game you shouldnt
+ using sndplay instead make channel use buffercmds
+ play sounds works great you can add callbacks 
+ channel also let you know when channel getting
+empty before gets empty
+
+
+ sound driver so much snappier than sound manager unfortunately
+system supports poorly making programs crash occasionally
+
+ moral story developers dont cheat
+
+well i want my code work old systems too i dont know about sys
+
+ least bugs sound manager causes
+channels hang error message happends when i keep 
+channel open long periods necessary performance play many
+sounds stopping sounds halfway callbacks seems reliable
+ only way i can safely tell sound has stopped playing 
+inspect private variables channel qhead i think 
+only way i have found tell channel hung inspect 
+undocumented flag modify 
+
+callbacks very reliable i found them reliable even
+under system i doing continuous background sound 
+interrupting sound effects system imv
+documentation
+
+you probably were cancelling your callback commands out 
+your channels course you didnt get called general 
+you have problems sounds working when you play one per
+channel close channel related
+slowdown when you play more than one you dont
+work you adding more than one synthesizer 
+channel possibly same one multiple times might 
+because you calling sndplay preexisting channel 
+ sound resource which adds sampled sound synthesizer 
+ channel first thing before plays most sampled sounds
+have command start them you need resedit
+ sound remove command when you create your
+channel specify sampled sound synthesizer 
+channels synth you can use asynch sndplays all you
+want youll probably want switch buffercmds since you
+ going have use snddocommand anyway add callbacks
+
+now before you go ahead tell me i am full 
+sound manager doesnt work games remember spectre uses
+ works great spectre can spare cpu time you
+can too
+
+one little disclaimer some out who say 
+sound manager iisi cant made work right im 
+sure either way i know sure you can make your
+sounds work correctly every other machine using 
+sound manager
+
+steve

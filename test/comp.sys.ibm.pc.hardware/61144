@@ -1,0 +1,55 @@
+article pdbkilimanjarojplnasagov pdbipljplnasagov paul bartholomew writes
+ article shamanwvtekcom andrewfripwvtekcom andrew
+klossner wrote
+ 
+ 
+ 
+ lpt com disk controller call devices 
+ devices requires exclusive interrupt ownership eg disk
+ controller i keyboard i also devices 
+ does require exclusive ownership ie share 
+ interrupt another device eg lpt
+ 
+ standard isa bus one almost all nonlaptop pcs use
+ two separate interface cards cannot share interrupt due 
+ screwup bus design example your soundblaster wants
+ drive interrupt number must hold certain bus wire 
+ all times depending whether wants interrupt
+ precludes letting another card assert interrupt number 
+ 
+ when two more devices isa bus pc share interrupt its
+ because theyre implemented single card
+
+interesting would you care explain me how my soundblaster
+pro card my printer card sharing irq successfully i assure
+you both set irq i have problem my
+computer dtk ibm clone
+
+simple first andrew correct although i can see where might 
+some confusion indeed possible have two cards configured use
+ same interrupt can share interrupt sense 
+ possible have both cards active same time
+
+here example some time i short free interrupts i had 
+tape controller floppy tape needed one irqirq its 
+old tape drive my solution use irq also used com where my
+modem i did because i reasoned i would never using modem 
+ tape simultaneously when kermit runs installs its own interrupt
+handler irq uses serial port tape drive were generate
+ interrupt kermit would have clue what do withfor tape
+controller since tape controller would serviced would
+most likely hang likewise when tape backup software runs 
+installs interrupt handler irq handler wont do anything 
+ serial port
+
+under dos printing interruptdriven instead bios polls 
+status parallel port determine when another byte may sent
+thats why you can have your sound card lpt both configured use irq
+try nt see how far youll get 
+ 
+kenneth r ballouvoice 
+oberon software incfax 
+one memorial drive cambridge ma internet ballouoberoncom
+
+ views opinions expressed above my own do necessarily
+reflect those my employer

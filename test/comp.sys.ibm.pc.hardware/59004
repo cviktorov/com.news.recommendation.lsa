@@ -1,0 +1,31 @@
+first all thanks those you who responded both here via email
+ tips didnt pan out good hearing from you
+
+now following up my earlier post
+
+ disk controller acculogic side hard floppy ide controller
+ jumpers all defaulted shown 
+ normal irqdelayed irq primarysecondary floppy address
+ singledual speed floppy primarysecondary ide address
+ precomp ns ns iochrdy drivenide drive controls iochrdy
+
+ other cards didnt check brand serial parallel adapter
+ logitech bus mouse adapter
+ roland mpucompatible midi interface 
+ configured default irq mem address 
+
+i opened up box removed all other cards above help 
+ having anything better try i changed normal irq delayed
+irq disk controller didnt make any difference iochrdynot
+driven idedrivecontrolsiochrdy also had effect so i put 
+everything back way reinstalled cards
+
+i unplugged floppy drive cable from disk controller voila
+ pc booted from power up although seemed take several seconds 
+before first access hard disk plug floppy cable back
+ controller original nonboot behavior returns
+
+ok additional information does anyone netland have any 
+words wisdom whats going how i should deal 
+
+larry still unplugging away byler

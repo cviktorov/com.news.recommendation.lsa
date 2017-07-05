@@ -1,0 +1,39 @@
+article tigerckoygxnetcomcom tigernetcomcom tiger zhao writes
+goyalutdallasedu mohit k goyal writes
+can anyone tell me card works march os beta
+
+ i believe so since buslogic cards have proven very 
+reliable os 
+
+ buslogic cards have os driver does work march 
+beta support buslogic cards included os any longer
+ you wish install beta from cdrom you need rem out 
+adaptec device drivers have nasty tendency crash buslogic
+cards when os attempts use them thanks adaptec 
+
+so you add buslogic drivers configsys cdrom boot disk 
+rem out adaptec drivers
+
+ you install whole st half beta wont work ibm
+nicely copies adaptec drivers once again thanks ibm so rem out
+ adaptec drivers once more reboot you have everything 
+right order work
+
+things pretty smooth through rest installation except os
+ try install adaptec scsi drivers once again end so you
+ off more rem statements more fun 
+
+ bt bk comes drivers costs same adaptec cards 
+do come drivers dos drivers work great card can easily 
+configured work different sets io ports you can use
+multiple host adapters one machine you get new card also 
+able support up gb drives under dos
+
+hope helps
+
+ dan
+
+
+ 
+
+ dan galpin galpincatsucscedu

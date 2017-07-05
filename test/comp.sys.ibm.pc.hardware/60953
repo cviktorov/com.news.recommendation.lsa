@@ -1,0 +1,51 @@
+arosbornoregonuoregonedu alan osborn writes
+
+ article aprtdbuuse mmaxtdbuuse max brante w
+ have anybody succeded converting atari monomchrome monitor 
+ mono vga monitor so please let me know exactly how you did what
+ graphics card you used
+
+ i wish i could help i posted similar question about two weeks ago
+ i got response all ive asked locally my friendly atari store
+ i told should possible had idea how
+ might done nor did particularly care investigate
+
+ok heres my results so far
+
+ you have define monitor lcd doesnt really support
+ analogue video input works isnt very linear
+
+ incoming sync pulses need inverting best achieved
+ either cmos xor package transistor inverter
+ you dont know how do dont even contemplate 
+
+ itll only work standard vga mode
+
+ok having said im trying either find circuit ic
+which act universal sync decoder
+
+i want somethikng which basically only detects leading sync
+pulse edge doesnt care about polarity outputting
+ ve going pulses atari monitor requires
+
+ reasons doing 
+
+ vga cards change sync polarity depending which mode theyre
+ herc emulation while mvga example
+
+ means i dont have put toggle switch back 
+ monitor order able run off both atari my
+ ibm currently i have yes monitors sitting my desk
+ i want get number down much possible
+ being able use atari monitor paperwhite vga
+ cut things down i forget about atari colour
+ i can get down 
+
+ultimately best course action get multisync monitor
+ im pressed cash anyone else so itll have wait
+
+
+
+
+alan brown
+dogbowldogboxacmegennz

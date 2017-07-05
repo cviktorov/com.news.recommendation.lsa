@@ -1,0 +1,79 @@
+kevin kimmell computer sciencegerman undergrad kekimmellvaxcnsmuskingumedu wrote
+
+ i am interrested extrodinarily simple concept null modem
+ cable actually i have idea so dont count last statement what im
+ asking what pins does use what its specifications i just want
+ solder one myself instead buying one i dont even know what port 
+ used
+
+dbdb
+pin pin nameeiaccittdtedcedescription
+
+ fgaa frame ground
+ tdba transmitted data
+ rdbb received data
+ rtsca request send
+ ctscb clear send
+ dsrcc data set ready
+ sgab signal ground
+ dcdcf data carrier detect
+ positive dc test voltage
+ negative dc test voltage
+qm equalizer mode
+sdcdscf secondary data carrier detect
+sctsscb secondary clear send
+stdsba secondary transmitted data
+tcdb transmitter clock
+srdsbb secondary receiver clock
+rcdd receiver clock
+dcr divided clock receiver
+srtssca secondary request send
+dtrcd data terminal ready
+sqcg signal quality
+rice ring indicator
+ch data rate selector
+ci data rate selector
+tcda transmitted clock
+
+ from another posting csiph 
+ sorry dont know author 
+connecting devices
+
+ 
+ normally wire connection used connect
+ gnd gnd
+rxd txd
+txd rxd
+dtr dsr
+dsr dtr
+rts cts
+cts rts
+ modem connected add lines following
+ ri dcd
+ software wants connect dcd cts dcd cts
+ beware while pcs use pin rxd pin txd modems normally
+have those pins reversed allows easily connect pin pin pin
+ pin etc you connect two pcs cross rxd txd
+ 
+ hardware handshaking needed socalled nullmodem connection
+can used connect
+ gnd gnd
+rxd txd
+txd rxd
+additionally connect software needs 
+ rts cts dcd
+rts cts dcd
+dtr dsr
+dtr dsr
+you wont need long wires 
+ nullmodem connection used establish xonxofftransmission
+between two pcs see software section details
+ remember names dtr dsr cts rts refer lines seen from
+ pc means your data set dtr rts incoming signals
+ dsr cts outputs
+ end 
+
+michael
+
+ michaeljestergunde michael gerhards preussenstrasse 
+ germany neuss voice

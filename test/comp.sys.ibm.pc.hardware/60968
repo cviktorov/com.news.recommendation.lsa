@@ -1,0 +1,106 @@
+eric bosco eboscousoraclecom wrote
+
+ first all please edit your postings wading through lines 
+ quoted crud which people have already read makes people much less
+ likely help you course you dont want helped thats
+ your problem 
+
+ true i under impression people net had both 
+ scsi ide working together
+
+ its true you can get scsi ide work together 
+ restrictions least adaptec 
+
+ you must boot from ide drive way boot from 
+ scsi drive you have both ide scsi drives
+
+ you must disable scsi rom bios im sure about though
+ so you must also use some special drivers access scsi
+ drive hmm i know you have disable something related 
+ scsi bios im sure rom itself
+
+ back february someone asked about ide scsi question
+gets asked again again end message ive included
+ edited copy my reply you might find interesting
+
+ darryl okahata
+internet darrylosrhpcom
+
+disclaimer message authors personal opinion does 
+constitute support opinion policy hewlettpackard 
+little green men have been following him all day
+
+
+ worth get scsi over ide noticable
+ decrease access timeincrease xfer rate
+
+ msdos applications isabased scsi ide controllers
+generally have comparable throughput you might get slightly higher
+throughput scsi disk youll also pay more disk
+ up some cases youll also pay much much more 
+good scsi controller
+
+ note good scsi controllers really show power theyre
+used good multitasking operating system like pc unix
+unfortunately neither msdos nor windows good multitasking
+operating system performance advantage scsi controllers 
+mostly wasted which leaves advantage being able 
+connect multiple devices scsi bus only advantage
+however note you can expect pay premium scsi devices
+
+ youre only going using msdos stick ide its
+cheaper youll have less headaches
+
+ virtually any scsi device chain controller my
+ harddrive bernoulli box cdrom tape drive etc
+
+ note following true msdoswindows only who knows what
+ future holds windows nt unix 
+
+ generally you have find drivers each scsi device
+which probably dont exist unless youre using one betterhigh
+performance scsi controllers typically busmastering scsi
+controllers cost around street prices up 
+drivers allow you connect controllers popular
+namebrand scsi devices either come card can purchased
+ under list price examples driver kits 
+
+ adaptecs ez scsi kit list works only adaptec scsi
+ controllers
+
+ corelscsi from same people who make coreldraw list 
+ driver kit supposedly work any scsi controller card
+ has aspi driver like adaptec
+
+ central points pc tools dos supports number scsi tape
+drives documentation lists tape drives unfortunately 
+works only adaptec controllers
+
+ likely other problemsincompatibilities 
+ scsi controller sound cardsvideo acceleratorsand similar
+ equipment
+
+ yes you run problems youre using 
+highperformance busmastering scsi controller doesnt sound
+right doesnt its true though one controllers
+youll probably have tweak your system get work sound
+cards floppycontrollerbased tape drives like cms jumbo 
+windows i know ive been hll back getting my scsi
+controller work various hardwaresoftware thank god tape
+backups you want copy my adaptec hints tips file
+send email
+
+ problems arent really fault scsi controller card
+ problems really general hardware software design 
+ pc eg standards however adding busmastering scsi card
+ what brings problems surface makes them visible
+
+ scsi holds lot promise you can run lot pc
+compatibility problems youre planning using only msdoswindows
+ stick ide you want use windows nt pc unix youll
+have make some hard decisions good scsi controller more than
+one scsi hard disk probably give you excellent performance 
+possible cost msdos compatibility i say probably because
+while i know true pc unix i dont know really
+ true windows nt i suspect i dont know
+ sure

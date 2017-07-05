@@ -1,0 +1,42 @@
+article aprmagnusacsohiostateedu nstassenmagnusacsohiostateedu nicki stassen lantz writes
+ what weekend i replaced my motherboard upgraded dos ms
+ windows now experience lockups any windows application using 
+ modem
+ 
+ dxdxl cpu amd
+ ami bios
+ io card serial parallel game ports generic cheapo
+ ide controller two hd two fd
+ internal packard bell modem
+ mouse
+ 
+ mouse set com irq via jumper io board parms 
+ mouse driver modem set com irq jumpers modem board 
+ addition i think i have disabled second serial port io card since
+ unused mouse works fine
+ 
+ heres deal procomm dos version works fine through modem
+ procomm windows cim compuserve windows 
+ terminal all lockup when i try do anything 
+ modem screen just freezes sound comes from 
+ modem nor any messages screen
+ 
+ im getting real frustrated could second port io card still 
+ enabled would cause problem ive been through most software
+ routes so im beggining believe maybe hardware problem
+ anybody been through similar experience anybody have any ideas i could try
+ please
+ 
+ thanks advance
+ 
+ n stassen lantz
+
+i ran same problem when i upgraded from modem 
+modem any time i give modem reset command atz while windows
+ computer locks up i give atz command dos work my solution 
+ give modem atz command thru windows procomm 
+install process i told program i have hayes compatible modem atz
+ included initialization string works fine i called ms
+about didnt have clue what memoryinterupt conflict 
+could lockup accures using any windows comm program gives atz
+command

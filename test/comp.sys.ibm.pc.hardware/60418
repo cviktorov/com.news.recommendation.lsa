@@ -1,0 +1,31 @@
+lyourkcbnewsccbattcom loran n yourk writes
+ 
+ sound card interrupt two serial ports one modem i
+ one miracle piano i printer port i i have run out 
+ low interrupts what i would like mouse port interrupt 
+ which ever interrupt ps mouse port uses isa
+ i computer i called technical support microsoft logitech ati
+ checked what interrupts mouse port ati video cards can use
+ all said only interrupts possible cards ones
+ lower than does anyone know any board isa bus which 
+ allow mouse port even serial port high interrupts
+
+ try putting one irqs your com ports onto irq hardware 
+automagically wrap irq irq class machines eg anything high
+irqs what im doing my set up right now 
+ ive got com irq really irq address way software com
+ irq soundblaster irq lpt irq my ati busmouse port one 
+ interrupts between works just great
+ you need even more theres text file floating around somewhere 
+details how hack up any serial card probably any others work 
+higher irqs basically involves cutting trace low irq running wire over high irq pin bit expansion bus
+
+ best put modems com port onto irq 
+
+first irq serviced system giving modem better response 
+especially handy under multitaskers like os which im running 
+problems
+
+justin
+
+jdolskeandybgsuedu

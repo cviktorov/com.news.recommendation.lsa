@@ -1,0 +1,38 @@
+mon apr gmt wayne smith wlsmithvalveheartrriuwoca wrote
+ article richkaprgozergrebyncom richkgrebyncom richard krehbiel writes
+
+ so when youve got multitasking you want increase performance 
+ increasing amount overlapping you do
+ 
+ one way dma bus mastering either make 
+ possible io devices move data out memory
+ without interrupting cpu alternative cpu move
+ data several scsi interface cards allow dma 
+ bus mastering
+ 
+ how do you do busmastering isa bus
+
+ earlier post noted through dma
+
+ ide however defined standard interface
+ created ibm pc which requires cpu move all data
+ bytes dma
+
+ were talking isa bus here you can only have dma channel
+ active any one time presumably transferring data from single device
+ so even though you can have least devices scsi bus explain how
+ all those devices can dma transfers through single scsi card
+ isaat bus same time
+
+any one time means imho single byte xfer i have four sources 
+dma requests ready dma would service one after other 
+ bandwidth four together lower than isadma
+bandwidth work
+
+note bus mastering here priority mechanism dma
+controller
+
+
+penio penev x w internet penevveneziarockefelleredu
+
+disclaimer all oppinions mine

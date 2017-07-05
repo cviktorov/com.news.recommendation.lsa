@@ -1,0 +1,43 @@
+following up my own note
+ted richards tedisgteccom wrote
+ al devilbiss alcolhpcom wrote
+ 
+ looks like everything works advertised i am disappointed
+ speed im using intel internal k modem pc
+ telebit k unix end which currently limited 
+ kbits unix com link get quantitative comparison i
+ did cat file where file kbyte uncompressed ascii text 
+ took seconds scroll through x window over modem link
+ charssec using identical hardware procommfw same
+ cat file takes seconds charssec btw i use ncd pc xview
+ my pc work hp every day same unix access from pc over
+ lan like just fine same cat file scrolls 
+ seconds lan connection
+
+i just tried few experiments i catd byte file lines
+under various scenarios
+
+pcxview dos fullscreen os window xx sec
+telix dos os window xsx sec
+telix dos fullscreen os window standard vga sec
+telix dos windows window xx sec
+uwwin seamless os window xx gave up after min
+uwwin windows xx faster gave up after min
+uwwin seamless os window using pg sec could have been 
+ little faster i had keep
+ hitting space bar
+
+i using ati wonder xl video card way
+
+so pcxview dos looks pretty good linebyline scrolling
+ os desktop looks pathetic although fullpage redraws pretty
+good
+
+i tried under pcxview using my normal xbold x font
+ very small font difference times
+ modem receive light pretty solidly so looks like 
+bottleneck baud modem screen drawing
+
+
+ted richards tedisgteccom uunetcaisgtected
+isg technologies inc airport rd mississauga ont canada lv s

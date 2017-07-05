@@ -1,0 +1,31 @@
+i just hooked up my mac iisi relatively old year asante ensc
+adapter baset connection works like charm i installed 
+newest drivers from asantes ftp server
+
+ problem begins when i attach one more device scsi chain 
+specifically mb drive i power up drive mac mac
+tests memory etc just before happy mac face normally shows up 
+power light ensc goes out boot process stops so i can use
+ network external drive both once makes 
+asante box pretty much unusable
+
+ doesnt look like purely electrical scsi problem because i turn
+ drive just second so too late so doesnt get noticed
+during initial scsi polling mac boots normally adapter
+works even though hard disk powered connected mac has
+never once failed boot from its internal drive up now ive had
+ over year
+
+here what i tried changing scsi ids ensc disk 
+several permutations changing order devices ie ensc 
+head tail chain overterminating external terminator
+both devices have internal ones underterminating ie removing internal
+resistors from hard disk trying another ensc box trying another
+identical drive trying several different scsi cables
+
+has anybody seen more importantly does anyone have solution
+thanks lot e
+
+ 
+eric behr illinois state university mathematics department
+behrmathilstuedu behrilstubitnet please avoid

@@ -1,0 +1,560 @@
+ron mastus ronaldmextrouccsuozau wrote
+
+ ive just replaced my existing dtc scsi controller adaptec b
+ am now having trouble restoring from jumbo tape drive
+
+ heres document i wrote some time back its slightly
+outofdate now dos has been released much still
+useful
+
+ darryl okahata
+internet darrylosrhpcom
+
+disclaimer message authors personal opinion does 
+constitute support opinion policy hewlettpackard 
+little green men have been following him all day
+
+
+id adaptectxt darrylo rel darrylo 
+ hints tips adaptec scsi adapter
+
+
+ document contains hints tips getting adaptec
+ scsi adapter work various hardware software
+packages based upon my experiences adaptec 
+controller hopefully help others however note i
+cannot guarantee following really help you works 
+me information document could possibly cause you 
+lose some all your files your hard disk
+
+ important back up entire contents your hard disk before
+trying anything based upon information document
+
+ copyright darryl okahata document may freely
+copied personal use only may reprinted forprofit
+publication without consent author please note i have
+ connection adaptec other than customer
+
+topics covered document
+
+ windows enhanced mode
+ floppycontrollerbased tape backup devices
+ sound cards
+ miscellaneous info
+
+ please note parts document contain technical 
+sometimes terse descriptions problems
+
+ reference
+
+adaptec technical support 
+adaptec bbs 
+
+please send comments corrections etc via email me
+
+compuserve
+internetdarrylosrhpcom
+
+
+ windows enhanced mode
+
+ windows install program should automatically configure dos
+ windows use adaptec however just case
+something went wrong im going describe some changes needed
+ get windows working also you may have noticed
+ installing windows makes your pc run much slower even when
+youre running windows methods speeding up discussed 
+ section called windows runs slowly
+
+
+ msdos configuration
+
+ windows install program adds smartdrive disk cache your
+configsys autoexecbat files you follow instructions
+youll notice youll need use doublebuffering smartdrive
+ default setup youll also notice your system runs
+much much slower both windows msdos see section
+called windows runs slowly some ways speeding your system
+up
+
+
+ windows configuration
+
+ get adaptec work windows make sure 
+enh section systemini file contains entry
+
+virtualhdirqoff
+
+i believe windows install program automatically adds entry
+ systemini im sure doesnt work you you
+might want try adding some more lines
+
+virtualhdirqoff
+systemrombreakpointfalse
+emmexcludeacfff
+
+you probably dont need above lines though 
+systemrombreakpoint entry used enable support memory
+managers like qemmmax only needed you use programs
+
+
+ windows runs slowly
+
+ once you do get windows running chances 
+your system running much slower than before its its
+probably because
+
+ you happen using aspidossys version your
+configsys file congratulations appears 
+winning solution
+
+ you very lucky whether your luck hold out remains 
+ seen 
+
+ your system running much slower than before almost
+definitely caused smartdrive doublebuffering according 
+windows documentation microsoft technical note q
+smartdrive double buffering required aspidossys you must use
+smartdrive doublebuffering enabled while works really
+slows down your pc i once estimated slowed my pc down 
+factor five i consider unacceptable i looked other
+solutions
+
+ unfortunately you cannot just disable doublebuffering you
+do windows enhanced mode work you might even
+destroy contents your hard disk trying run windows 
+what you can do one following
+
+ use other drivers provide doublebuffering my
+opinion unbelievable slowness smartdrive caused
+either horribly inefficient doublebuffering bug 
+smartdrive
+
+ use driver provides vds services vds stands 
+virtual dma services standard which supported
+ windows allows busmastering disk controllers like
+ work windows
+
+ after trashing my hard disk countless times i found following
+solutions none which require using smartdrive note however i
+am now getting occasional parity errors which probably caused
+ solutions might see below while following
+does require smartdrive using some kind disk cache utility 
+strongly recommended makes windows run much much faster
+
+ you do have aspidossys driver you do need aspi
+ functions controlling cdrom tape drive more than two
+ physical hard disks etc you can add scsihasys driver your
+ configsys file eg
+
+drivercscsihasys v
+
+ windows needs v option driver must loaded 
+ low memory cannot loaded high memory occupies
+ about k november scsihasys driver could 
+ obtained from adaptec bbs hopefully its
+ still 
+
+ you need aspi functions have aspidossys driver version
+ you can use both aspidossys scsihasys drivers
+ your configsys file eg
+
+drivercaspidossys
+drivercscsihasys v
+
+ amazingly enough scsihasys driver can also loaded high
+ assuming you have dos i would have thought would
+ crash my system doesnt i asked adaptecs technical support
+ about said loading scsihasys high should fine
+ long aspidossys loaded low
+
+ my system using scsihasys aspidos would
+ occasionally cause windows crash upon restarting exiting
+ windows additional result corrupted disk some my
+ cwindowsgrp files would corrupted me crashes
+ usually occurred while making different program from progmanexe
+ default windows shell viceversa reason
+ scsihasys may necessary
+
+ i have absolutely idea scsihasys necessary versions 
+ aspidos earlier than 
+
+ note many people can use aspidos without
+ scsihasys do seem have any problems all i consider
+ people lucky others like me have had all sorts problems
+
+ my opinion best necessarily easiest solution 
+ upgrade aspidos scsihasys driver longer
+ needed unfortunately while you could get previous aspidos
+ upgrades from adaptec bbs aspidos driver 
+ available from adaptec bbs far i know only
+ three ways get copy
+
+ you can buy new november adaptec ez scsi driver
+kit which supposedly includes aspidos well other
+drivers cdrom drivers i believe list price 
+around 
+
+ you already have copy older version aspidos you
+can supposedly contact adaptec upgrade ez scsi 
+around 
+
+ copy aspidos included central point pc tools 
+ msdos note documentation driver stored 
+different directories note further only aspidos 
+included cdrom drivers drivers support more than two
+hard disks included where i obtained my copy
+ aspidos 
+
+note however i am now getting occasional parity errors 
+windows all probability defective hardware my pc causing
+ i upgraded my motherboard just after i found above
+solutions however because parity errors occur only during disk
+accesses very small definite possibility 
+parity errors driverrelated example changing bus onoff
+timing certain disk transfers might cause ive run various
+memory tests hours time tests have found 
+problems problem probably caused memory marginal
+timing requirements which cause parity errors during disk transfers
+ why memory tests didnt find any problems problems
+show up only under disk io however im mentioning just case
+ isnt hardware problem
+
+
+ floppycontrollerbased tape backup devices
+
+ two possible problems using adaptec 
+floppycontrollerbased tape backup device colorado memory
+systems jumbo 
+
+ tape backupsrestores can take very long time tape drive
+ constantly starts stops starts stops etc
+
+ tape operations may erratic encounter too many tape errors
+ problem might caused defective hardware my 
+ however ive heard other people having similar problems so
+ im mentioning just case hardware problem my
+ 
+
+
+ tape backupsrestores take long time
+
+ you have floppycontrollerbased tape backup device you may
+have adjust adaptec bus onoff timing best
+results when using tape drive normally while doing tape backup
+ restore tape drive motor should continuously running 
+only occasional pause however default bus timing 
+adaptec may cause tape drive motor start stop
+start stop every few seconds causes needless wear 
+tape tape drive however note dirty tape head defective
+tape drive can also cause make sure your tape heads clean
+ also causes tape backup restore take much much longer
+than necessary
+
+ problem here tape backups use floppy dma 
+transfer data memory tofrom tape drive adaptec uses dma
+ transfer data memory tofrom hard disk floppy dma needs
+ feed data tape drive certain rate tape drive 
+ fed data quickly enough floppy dma tape drive stops
+rewinds bit restarts once enough data eventually fed 
+ default bus timing adaptec which really dma timing 
+too large example when backup done data has 
+transferred from hard disk memory from memory 
+tape because default timing adaptec hogs memory too
+much too much time spent transferring data from hard disk 
+memory enough time spent transferring data from memory 
+tape drive result tape drive constantly starts stops
+because data fed quickly enough
+
+ solution change adaptecs bus onoff timing 
+default factory setting microseconds microseconds off
+ bus timing needs lowered microseconds can
+ done one two ways
+
+ you have aspidos you can use n option example i use
+ bus timing microseconds which means i use 
+ following line my configsys file
+
+devicecaspidossys n
+
+ note space between n 
+
+ you dont have aspidos your only recourse try find 
+ program called setscsiexe which very difficult find 
+ reason adaptec reasons own does seem 
+ want widely distributed i once asked someone who worked 
+ adaptec asked me upload anywhere you have
+ anonymous ftp access internet you could try using archie 
+ hunt down copy i believe couple sites have
+ you do find copy you run like so
+
+setscsi n
+
+ adjusts bus timing microseconds running
+ setscsiexe without any arguments resets bus timing back 
+ factory defaults
+
+ note seems you cannot use setscsiexe you use
+ aspidos setscsiexe crashed my system aspidos loaded i
+ could use setscsiexe scsihasys however
+
+do lower bus timing below microseconds increase 
+above microseconds you lower too low hard disk
+throughput suddenly drop your system feel slower me 
+microseconds works fine value may work fine you you may
+have adjust downwards little
+
+ once youve lowered bus timing tape backups restores
+should run faster
+
+ also do experiment bus onoff times other
+options i have intentionally described unless you know what
+you doing bad combinations can cause parity errors worse 
+starving memory refresh
+
+ program called bustifixexe exists adaptec bbs unless
+ has been upgraded since i last checked which has been while
+ selfextracting archive containing batch file couple
+ other files batch file supposed allow one set 
+bus onoff times others however when i tried
+running program my my system crashed time i
+ running scsihasys i didnt check see 
+conflict maybe old program works only b
+although docs say works 
+
+
+ erratic tape operations too many tape errors
+
+ problem may may exist although existed my
+system hardware problem just my particular could cause 
+however ive heard other people having similar problems so im
+mentioning just case isnt hardware problem just my
+
+
+ symptoms problem which persists even after cleaning 
+tape head
+
+ backing up tape encounters unusable sector detected errors
+ resulting aborted tape backup
+
+ tape backup works tape compare fails
+
+ tape drive starts stops starts stops etc much too often
+ unlike abovementioned problem tape backupsrestores take 
+ long time where tape drive starts stops every few seconds
+ kind startingstopping occurs every few seconds so
+
+ fastback plus does findsee any tape backup devices other
+ programs like central point backup cms jumbo software
+ assuming you have cms jumbo tape drive can findsee 
+ tape drive fastback plus cannot
+
+ too many tape read errors
+
+ although i do know what causing problem i discovered
+ using different floppy controller solves few months ago i
+upgraded my motherboard which contained integrated floppy
+controller i already had floppy controller i
+initially disabled motherboard floppy controller after while i
+decided try disabling floppy controller using one 
+ motherboard when i did tape drive cms jumbo 
+reliability increased dramatically fastback plus suddenly
+able find use tape drive
+
+ i dont know caused hardware problem my 
+ one hand floppy drives worked great when were attached
+ which seems say nothing wrong 
+ other hand tape drive didnt work well attached 
+ floppy controller did work when attached different
+controller could indication hardware problem my
+ i did change floppy drive cables so conceivable 
+ problem cables i dont know what cause really 
+however youre having similar problems you might want consider
+trying new floppy controller
+
+
+ sound cards
+
+ many popular sound cards can play record digitized sound 
+ typically done using dma like tape drive dma 
+adaptecs dma can conflict sound card dma unlike 
+tape dma conflict usually manifests itself parity error
+your system crashes parity error message what happens 
+ data being transferred so quickly sound card 
+adaptec memory refresh cannot occur quickly enough which causes 
+parity error usually getting parity error means 
+hardware problem your system case however parity
+error symptom bad hardware
+
+ ive found parity errors typically occur while recording
+digitized sound chances errors increase you increase
+ recording fidelity eg higher sampling rate recording stereo
+recording using bits instead etc
+
+ like tape drive solution solution here lower 
+adaptecs bus timing see section tape drives 
+information how done note however may may
+ solve problem may only reduce probability parity
+error software used record digitized sound can greatly affect
+ problem ie some software inefficient disk caches 
+speed your hard disk amount disk fragmentation can also
+affect 
+
+
+ miscellaneous info
+
+ section contains miscellaneous hints tips rumors much
+ merely information ive heard read about have 
+verified i believe following information correct im
+ sure use your own risk
+
+ qemm you need specify db
+ parameter eg db unless you using aspidos driver
+ you dont qemm crashhang bootup although qemm
+ manual mentions install program does seem detect 
+ present automatically add option qemm
+ command line least occurred qemm install
+ program i havent tested any other version earlier versions 
+ qemm probably need parameter im sure ive never used 
+ version earlier than 
+
+ you use aspidos you do need give qemm db parameter
+
+ some all versions do support hard disks over one
+ gigabyte size support hard disks capacities over gb you
+ need get new rom bios from adaptec im sure 
+ still true latest bs being sold adaptec
+
+ connect cdrom drive you need scsi cdrom drive 
+ some drivers note some cdrom drives have proprietary interfaces
+ nonscsi drives cannot used you have three
+ choices cdrom drivers i have idea how well following
+ solutions work even work following secondhand
+ information
+
+ you can buy adaptecs ez scsi driver package which lists 
+something like you already have older adaptec drivers
+you can supposedly upgrade ez scsi around contact
+adaptec details ez scsi package supposedly contains
+everything you need
+
+ you can buy corelscsi driver package which made 
+same people make coreldraw package contains cdrom
+drivers scsi tape drivers worm drivers etc i do know
+ list price ive seen package sold around
+ note corelscsi does come aspidos
+driver which needed you do already have aspidos
+you may better off getting adaptecs ez scsi instead
+
+ method obsolete following drivers have been
+obsoleted adaptecs ez scsi kit im mentioning 
+case someone already has drivers you can use 
+drivers adaptec asw kit aspidos asw
+kit aspi cdrom drivers you have get copy 
+mscdexexe highlevel cdrom driver included 
+ asw kit available from several bulletin
+boards
+
+ use scsi tape drive you need software knows
+ how talk scsi tape drive software ive heard about 
+ again like above section cdrom drives i have idea how
+ well following solutions work even work 
+ following secondhand information
+
+ central point pc tools msdos supposedly supports large
+number scsi tape drives comes scsi drivers
+aspidos well central point backup
+
+ corelscsi driver package contains scsi tape backup
+program see above section cdrom drives more
+details however note corelscsi does come 
+requires aspidos
+
+ ive seen advertisements sell three configurations
+
+ scsi controller hard disk rom bios
+ scsi controller wbios adaptec aspi drivers
+ scsi controller wbios adaptec aspi drivers 
+corelscsi driversprograms
+
+ i imagine adaptec now sells fourth configuration
+
+ scsi controller wbios ez scsi drivers including aspi
+drivers
+
+ those people who use unix might interested version gnu tar
+ msdos talks scsi tape drive via aspidos driver you
+ need driver before you can use program ive never used
+ version gnu tar ive heard works i dont know
+ how well though you have anonymous ftp access internet
+ copy can found wsmrsimtelarmymil mirror sites
+
+pdmsdosdskutl
+aspibinzip gnu tar scsi tape drives adaptec xx
+aspipatzip patches aspibin relative gnu tar 
+aspisrczip src gnu tar scsi tape adaptec ctrlr
+
+ i have idea copy can found compuserve unixforum might
+ have any forum does
+
+ far msdos concerned b controllers 
+ same msdos should work well b
+ however hardware two boards identical 
+ least one nonmsdos program initially did work
+ did work b bsd version 
+ bsd unix
+
+ case anyones curious heres edited copy my configsys file
+
+files
+buffers
+breakon
+stacks
+devicecsysdevaspidossys d n
+devicecqemmqemmsys ram rom dma stm xfffff
+doshighumb
+devicehighcsysdevnnansisys
+devicehighcdossetverexe
+shell cdoscommandcom p
+
+ note im using qemm aspidos i were using aspidos
+ id probably have use configsys looked like
+
+files
+buffers
+breakon
+stacks
+devicecsysdevaspidossys d n
+devicecqemmqemmsys ram rom dma stm xfffff
+doshighumb
+devicehighcsysdevscsihasys v
+devicehighcsysdevnnansisys
+devicehighcdossetverexe
+shell cdoscommandcom p
+
+ i werent using aspidos id probably use something looked
+ like
+
+files
+buffers
+breakon
+stacks
+devicecsysdevscsihasys v
+devicecqemmqemmsys ram rom db dma stm xfffff
+doshighumb
+devicehighcsysdevnnansisys
+devicehighcdossetverexe
+shell cdoscommandcom p
+
+ however i used floppycontrollerbased tape drive i
+ planned record highquality sound from sound card i would still
+ need some way changing adaptecs bus onoff times first
+ two versions configsys take care last version
+ doesnt
+
+
+
+local variables
+fillcolumn
+evalautofillmode nil
+end

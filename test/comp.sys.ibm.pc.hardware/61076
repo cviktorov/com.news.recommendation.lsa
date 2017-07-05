@@ -1,0 +1,42 @@
+discussing use irq 
+
+ recent article mspraguesuperiormcwbstb mike sprague writes
+
+i number poeple thread have already written
+i cant prove its true i believe lpt does 
+actually use irq even though interrupt supposed 
+ dedicated lpt
+
+ put little differently
+
+ irq de facto standard interrupt assigned used 
+ printer adapter announce its completion some activity
+
+ dos doesnt monitor irq uses other means determine when its
+ time send out another byte printer
+
+ most all hardware printer adapters have ability disable
+ use irq usually merely breaking connection between
+ isa pin associated driver other adapters control 
+ irq line tristate driver programming just leave 
+ highimpedence mode
+
+ unfortunately lot adapter cards which use bistate
+ drivers ie either assert high assert low irq lines
+ rather than tristate drivers assert high assert low dont
+ assert anything presence card irq line precludes
+ use irq any other adapter unless physically 
+ disconnected jumper
+
+ incidentally note theres requirement card hold
+ irq line low when interrupt desired were true
+ you would have somehow tie down all unconnected irq lines 
+ certainly isnt requirement
+
+ nondos operating systems os nt various unices whatever 
+ proper plural unix might require use irq performance
+ reasons 
+
+ sb alas one cards which uses bistate drivers
+
+joe morris mitre jcmorrismitreorg

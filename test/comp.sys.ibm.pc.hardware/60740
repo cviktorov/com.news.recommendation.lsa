@@ -1,0 +1,35 @@
+article aproecorbitaldialixozau
+ oecjtboecorbitaldialixozau john bongiovanni writes
+ stuff deleted
+did i once hear order date advance something like 
+clock has make get date system call apparently clock
+hardware interrupt bios dont do date advance automatically 
+get date call notices midnight reset flag has been set 
+ advances date
+
+anybody more info
+
+ two problems
+ bios tod routine which updates bios clock uses only bit
+ day increment so second wrapping clock past midnight
+ get lost one calls bios read clock 
+ meantime 
+ bios resets day wrap indicator first get date
+ call from anybody after wrap indicator has been set so
+ unless first bios get date call after midnight done 
+ dos kernel which only part dos which knows how 
+ increment date day wrap indication normally lost
+my guess kevins menu system uses bios calls read 
+clock order display time hence entity which
+causes day wrap indication get lost even menu system
+notices day wrap which i think indicated nonzero
+value al really isnt any particularly good way tell dos
+about so dos can update day menu system should use
+dos calls get time which would cause dos kernel do
+ bios call wrap indicator would hence processed
+properly possibly though menu system cant easily use dos
+calls time because dos reentrant perhaps time
+incrementing ofters occur while menu system inside some
+other dos call
+
+wally bass

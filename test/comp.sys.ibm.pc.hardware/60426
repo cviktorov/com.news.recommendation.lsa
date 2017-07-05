@@ -1,0 +1,29 @@
+article cifxfcucdavisedu ezrockyucdavisedu great randalli writes
+
+ can anyone explain fairly simple terms why i get os i might 
+ need scsi controler rather than ide performance suffer 
+ much mb so drive i dont have tape drive cdrom
+ any help would appreciated
+
+ richard randall ezhamletucdavisedu
+
+ way which multitasking computer actually gives you
+more cpu power you had before io overlap
+ io overlap your cpu can continue think while disk
+operations underway whereas without overlap your cpu sits idly
+waiting each disk operation finish disk operations take
+ eternity compared fast cpu
+
+so when youve got multitasking you want increase performance 
+increasing amount overlapping you do
+
+one way dma bus mastering either make 
+possible io devices move data out memory
+without interrupting cpu alternative cpu move
+ data several scsi interface cards allow dma 
+bus mastering ide however defined standard interface
+created ibm pc which requires cpu move all data
+bytes dma
+ 
+richard krehbiel richkgrebyncom
+os do me until amigados comes along

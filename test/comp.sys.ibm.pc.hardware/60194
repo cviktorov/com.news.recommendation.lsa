@@ -1,0 +1,42 @@
+article aprwnbbsnbgsuborg compsysibmpchardwarealtmsdosprogrammercompsysibmpcmiscuwpcgeneraluwpcibmmiscforsalecomputersdcompdcommodems oliwnbbsnbgsuborg oliver duesel writes
+ hi 
+ 
+ yuriwindyberkeleyedu yuri yulaev writes
+ 
+ i have spg io card my pc 
+ when i plug wang modem comit works i change
+ com doesnt 
+ program chkport gives diagnostics like possible com irq
+ conflict com mouse driver memory
+ 
+ since your iocard only has one serial port should default com 
+ under msdos you cant share irqs so youll have set either your modem
+ your mouse com using different adresses irqs
+ when you set two devices onto same irq like com com 
+ latter one always win ie you have your mouse com 
+ start using your modem com your modem should work your mouse 
+ stop doing so until reboot
+ 
+ should problem setting your modem com you didnt write 
+ anything about other peripherals 
+ 
+ i hope helped bit byte oli
+ 
+ 
+
+hi
+
+im kind new pc stuff my machine has serial ports com 
+ share same irqs you mean i cant plug mouse com modem
+ com expect both work
+
+ answer should i change irqs com ports different 
+does really matter which irq i set ports too
+
+phil
+
+
+phil hunt wherever you go you 
+howtek inc 
+
+internet philhowtekmvcom uucp decvaxharvardmvhowtekphil

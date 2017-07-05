@@ -1,0 +1,39 @@
+richkgrebyncom richard krehbiel writes
+stuff about connection between ide ida deleated
+mhz clock bit width mbsec
+ ide speed come from ida where does mbs sighted ide come from
+
+scsi complex just way industry uses talks about 
+ three key differences scsi controller chip port 
+ software 
+let us look scsi from stand point
+
+scsi asynchronous synchronous modes software scsi driver only
+ asynchronous slower synchronous mode only mbs vs mbs
+ synchronous speeds can reached most scsi divices 
+ rewrite software driver case mac quadra
+
+scsi bit main source confusion differs from
+ scsi only controler chip most machines mac some pcs
+ called fast scsi because uses scsi ports software drivers
+ can produce scsi speeds through scsi inspite even 
+ slower asynchronous mode average speed asynchronous scsi mode 
+ mbs mbssee both quadras higher end pcs synchronous
+ mode just allows higher burst rate mbs
+
+scsi bit two versionswidefast wide scsi requires two things
+ over bit scsi scsi software driver wide scsi port 
+ machine external device
+ fast scsi also requires two things over bit scsi scsi driver
+ software recieving devise support bit fast scsi
+ speed both same mbs mbs burst
+
+scsi bit also know wide fast scsi over bit scsi 
+ requires scsi driver software wide scsi port recieving
+ devices also have bit mode scsi chip expected very
+ expencive speed mbs mbs bursts
+ 
+
+ i said simple seven versions scsi seperated software 
+controler chip port standarize software drops 
+only five versions scsi seperate only hardware chip port

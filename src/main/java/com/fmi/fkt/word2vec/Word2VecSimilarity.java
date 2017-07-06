@@ -2,9 +2,7 @@
 package com.fmi.fkt.word2vec;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -22,16 +20,6 @@ import org.deeplearning4j.models.embeddings.wordvectors.WordVectors;
 import com.fmi.fkt.lsa.LSA;
 
 public class Word2VecSimilarity {
-
-  /**
-   * Path to word of vector file.
-   */
-  public static final String WORD_VECTORS_PATH = "C:\\Users\\i319962\\Documents\\Projects\\Inoweek2016 - Tweets\\glove.twitter.27B\\glove.twitter.27B.200d.txt";
-  public static final String WORD_GOOGLE_VECTORS_PATH = "C:\\Users\\i319962\\Documents\\fmi\\GoogleNews-vectors-negative300.bin";
-  /**
-   * The size of the vectors of word2vec model.
-   */
-  public static final int VECTORS_SIZE = 300;
 
   private WordVectors word2vecModel;
   private Map<String, String> docs;

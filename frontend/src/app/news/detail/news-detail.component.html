@@ -1,12 +1,12 @@
 <button (click)="toSearch()">To search</button>
-<div style="margin-top: 20px">
-    <div *ngIf="document" class="text-detail-container" style="margin-top: 20px; display: inline-block">
+<div style="margin-top: 20px;">
+    <div *ngIf="document" class="text-detail-container" style="margin-top: 20px; display: inline-block; max-width: 60%">
         <img src="assets/img/{{document.category}}.png" width="100" height="100" />
         {{document.content}}
     </div>
-    <div style="float: right;">
+    <div style="float: right;" *ngIf="suggestions">
         <h2>Similar</h2>
-        <ul class="list" *ngIf="suggestions">
+        <ul class="list">
             <li *ngFor="let doc of suggestions" (click)="onDocSelect(doc.id)">
                 <div style="display: flex;">
                     <div style="display: inline-block; margin-right: 10px;">

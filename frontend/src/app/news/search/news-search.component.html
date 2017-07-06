@@ -1,5 +1,5 @@
 <h1>News Search</h1>
-<input type="text" name="search" [(ngModel)]="query"/>
+<input type="text" name="search" [(ngModel)]="query" (keyup.enter)="searchDocs()"/>
 <button (click)="searchDocs()">Search</button>
 <div *ngIf="documents">
     <ul class="list">

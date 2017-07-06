@@ -1,0 +1,11 @@
+<h1>News Search</h1>
+<input type="text" name="search" #search/>
+<button (click)="searchDocs(search.value)">Search</button>
+<div *ngIf="documents">
+    <ul class="list">
+        <li *ngFor="let doc of documents" (click)="onDocSelect(doc.id)">
+            <span class="badge">{{doc.id}}</span>
+            <span>{{doc.content}}</span>
+        </li>
+    </ul>
+</div>

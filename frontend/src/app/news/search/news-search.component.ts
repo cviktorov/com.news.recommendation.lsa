@@ -11,17 +11,22 @@ import { Router, ActivatedRoute } from "@angular/router";
 export class NewsSearchComponent implements OnInit {
 
     documents: Article[];
-    
+
+    query: string;
+
     constructor(
         private newsSearchService: NewsService,
         private router: Router,
         private route: ActivatedRoute
-        ) { }
+    ) { }
 
-    ngOnInit() { }
+    ngOnInit() {
+        this.documents = this.newsSearchService.documentsCache;
+        this.query = this.newsSearchService.lastSearch;
+    }
 
-    searchDocs(query: string) {
-        this.newsSearchService.getDocuments(query)
+    searchDocs() {
+        this.newsSearchService.getDocuments(this.query)
             .then(res => this.documents = res)
             .catch(err => console.log(err));
     }

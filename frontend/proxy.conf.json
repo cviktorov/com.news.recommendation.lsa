@@ -1,6 +1,6 @@
 {
     "/rs": {
-        "target": "http://localhost:2380/NewsRecommendationLSA/",
+        "target": "http://localhost:2380/NewsRecommendation/",
         "secure": false
     }
 }

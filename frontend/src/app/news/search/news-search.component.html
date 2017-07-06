@@ -1,10 +1,17 @@
 <h1>News Search</h1>
-<input type="text" name="search" #search/>
-<button (click)="searchDocs(search.value)">Search</button>
+<input type="text" name="search" [(ngModel)]="query"/>
+<button (click)="searchDocs()">Search</button>
 <div *ngIf="documents">
     <ul class="list">
         <li *ngFor="let doc of documents" (click)="onDocSelect(doc.id)">
-            <span>{{doc.content | slice:1:50}}</span>
+            <div style="display: flex;">
+                    <div style="display: inline-block; margin-right: 10px;">
+                        <img src="assets/img/{{doc.category}}.png" width="100" height="100" />
+                    </div>
+                    <div class="text-list-container" style="display: inline-block">
+                        {{doc.content | slice:0:250}}...
+                    </div>
+                </div>
         </li>
     </ul>
 </div>

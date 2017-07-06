@@ -10,28 +10,31 @@ import { Article } from "app/domain/article";
 @Injectable()
 export class NewsService {
 
-    mockDocuments = [
-        new Article('1', 'Sample text'),
-        new Article('2', 'Document content'),
-        new Article('3', 'Maiko mila news'),
-        new Article('4', 'Document content'),
-        new Article('5', 'Document content'),
-        new Article('6', 'Document content'),
-        new Article('7', 'Document content'),
-        new Article('8', 'Document content'),
-        new Article('9', 'Document content')
-    ]
+    documentsCache: Article[];
+
+    lastSearch: string;
 
     constructor(private http: Http) { }
 
     getDocuments(query: string): Promise<Article[]> {
         return this.http.post('rs/news/search', query)
             .toPromise()
-            .then(res => res.json() as Article[])
+            .then(res => {
+                this.documentsCache = res.json() as Article[];
+                this.lastSearch = query;
+                return this.documentsCache;
+            })
             .catch(err => alert(err));
     }
 
     getDocumentById(id: string): Promise<Article> {
-        return Promise.resolve(this.mockDocuments.find(doc => doc.id == id));
+        return Promise.resolve(this.documentsCache.find(doc => doc.id == id));
+    }
+
+    getSuggestions(document: Article): Promise<Article[]> {
+        return this.http.post('rs/news/suggestions', document)
+            .toPromise()
+            .then(res => res.json() as Article[])
+            .catch(err => alert(err));
     }
 }

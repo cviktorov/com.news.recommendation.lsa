@@ -17,3 +17,7 @@ tmp/
 # Mac OSX Finder files.
 **/.DS_Store
 .DS_Store
+target
+.settings
+/.project
+/.classpath

@@ -4,8 +4,7 @@
 <div *ngIf="documents">
     <ul class="list">
         <li *ngFor="let doc of documents" (click)="onDocSelect(doc.id)">
-            <span class="badge">{{doc.id}}</span>
-            <span>{{doc.content}}</span>
+            <span>{{doc.content | slice:1:50}}</span>
         </li>
     </ul>
 </div>

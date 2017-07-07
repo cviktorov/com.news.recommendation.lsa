@@ -23,8 +23,19 @@ export class NewsDetailComponent implements OnInit {
         ) { }
 
     ngOnInit() {
+        if (!this.newsService.documentsCacheLSA || !this.newsService.documentsCacheWV) {
+            this.router.navigate(['news/search']);
+            return;
+        }
         this.route.paramMap
-            .switchMap((params: ParamMap) => this.newsService.getDocumentById(params.get('id')))
+            .switchMap((params: ParamMap) => {
+                const id = params.get('id');
+                if (this.newsService.detailCurrentAlgo === 'LSA') {
+                    return this.newsService.getDocumentByIdLSA(id);
+                } else {
+                    return this.newsService.getDocumentByIdWV(id);
+                }
+            })
             .subscribe(doc => {
                 this.document = doc;
                 this.getSuggestions();
@@ -41,7 +52,12 @@ export class NewsDetailComponent implements OnInit {
     }
 
     getSuggestions() {
-        this.newsService.getSuggestions(this.document)
+        if (this.newsService.detailCurrentAlgo === 'LSA') {
+            this.newsService.getSuggestionsLSA(this.document)
                     .then(res => this.suggestions = res);
+        } else {
+            this.newsService.getSuggestionsWV(this.document)
+                    .then(res => this.suggestions = res);
+        }
     }
 }

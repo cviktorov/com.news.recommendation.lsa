@@ -10,7 +10,9 @@ import { Router, ActivatedRoute } from "@angular/router";
 
 export class NewsSearchComponent implements OnInit {
 
-    documents: Article[];
+    documentsLSA: Article[];
+
+    documentsWV: Article[];
 
     query: string;
 
@@ -21,17 +23,25 @@ export class NewsSearchComponent implements OnInit {
     ) { }
 
     ngOnInit() {
-        this.documents = this.newsSearchService.documentsCache;
+        this.documentsLSA = this.newsSearchService.documentsCacheLSA;
+        this.documentsWV = this.newsSearchService.documentsCacheWV;
         this.query = this.newsSearchService.lastSearch;
     }
 
     searchDocs() {
-        this.newsSearchService.getDocuments(this.query)
-            .then(res => this.documents = res)
+        if (!this.query) {
+            return;
+        }
+        this.newsSearchService.getDocumentsLSA(this.query)
+            .then(res => this.documentsLSA = res)
+            .catch(err => console.log(err));
+        this.newsSearchService.getDocumentsWV(this.query)
+            .then(res => this.documentsWV = res)
             .catch(err => console.log(err));
     }
 
-    onDocSelect(id: string) {
+    onDocSelect(id: string, algo: string) {
+        this.newsSearchService.detailCurrentAlgo = algo;
         this.router.navigate(['news/detail', id]);
     }
 }
